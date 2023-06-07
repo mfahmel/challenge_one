@@ -1,8 +1,8 @@
 /* 
     FONTS
 
-    font-family: 'Abril Fatface', cursive;
-    font-family: 'Raleway', sans-serif; 
+    Abril Fatface: $font-AbrilFF
+    Raleway: $font-Raleway
 */
 * {
   margin: 0;
