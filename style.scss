@@ -1,20 +1,34 @@
 @import 'vars';
 
-@mixin Raleway600() {
+@mixin Raleway600 {
     font-family: $font-Raleway;
     font-weight: 600;
 }
 
-@mixin Raleway700() {
+@mixin Raleway700 {
     font-family: $font-Raleway;
     font-weight: 700;
 }
+
+@mixin Button {
+    width: 129px;
+    height: 32px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: $primary-color--black;
+    color: $primary-color--white;
+    @include Raleway700;
+    font-size: 14px;
+}
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+///////////////////////////////////////////////
 
 /* HEADER__INTRO */
 
@@ -27,6 +41,7 @@ Width: 320px
 
 */
 
+//////////////////////////////////////
 .prueba-medicion-586px {
     height: 586px;
     width: 100%;
@@ -34,9 +49,9 @@ Width: 320px
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: red;
+    /* background-color: red; */
 }
-
+//////////////////////////////////////
 
 .header__container {
     .navigation__container {
@@ -52,13 +67,38 @@ Width: 320px
     }
 
     .list__container {
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        
         .menu__container {
             display: flex;
-            list-style: none;            
+            list-style: none; 
+            align-items: center;
 
-            .option__onlydesktop {
-                display: none;
+            /* Desktop */
+            .onlydesktop {
+                display: none;  
+                @include Raleway600;   
+                font-size: 14px;           
             }
+
+            .option__pianos {
+                margin-left: 22px;
+            }
+
+            .option__soy-estudiante {
+                margin-left: 23px;
+            }
+
+            .option__contactanos {
+                .option__button__contactanos {
+                    @include Button;
+                    margin: 0 24px;
+                }
+            }
+            /* END Desktop */
 
             .option__shopping-cart {
                 .image__cart {
@@ -139,30 +179,118 @@ Width: 320px
             }
         }
 
-        .intro__piano__image {
+        .intro__piano__image--mobile {
             margin-top: 56px;
         }
     }
 }
 
 /* END */
+///////////////////////////////////////////////
+/* NEW-MODEL-PAGES */
 
 
 
+/* END */
+///////////////////////////////////////////////
+/* PIANO-TYPES */
 
+
+
+/* END */
+///////////////////////////////////////////////
+/* CONTACT */
+
+
+
+/* END */
+///////////////////////////////////////////////
+/* PARTNERS */
+
+
+
+/* END */
+///////////////////////////////////////////////
+/* FOOTER */
+
+
+
+/* END */
+
+///////////////////////////////////////////////
 
 /*MEDIA QUERIES*/
 
 /* Version DESKTOP: 960px*/
 
 @media only screen and (min-width: 960px) {
+    /* HEADER__INTRO */
+
     .header__container {
         .list__container {
             .menu__container {
-                .option__onlydesktop {
+                .onlydesktop {
                     display: block;
+                }
+
+                .image__cart {
+                    margin-right: 32px;
                 }
             }
         }
     }
+
+    .main__container {
+        .intro__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 63px;
+    
+            .intro__h1 {
+                font-size: 56px;  
+                line-height: 76px;        
+            }
+    
+            .intro__piano__image--mobile {
+                display: none;
+            }
+
+            .intro__piano__image--desktop {
+                margin-top: 90px;
+            }
+        }
+    }
+
+    /* END */
+    ///////////////////////////////////////////////
+    /* NEW-MODEL-PAGES */
+
+
+
+    /* END */
+    ///////////////////////////////////////////////
+    /* PIANO-TYPES */
+
+
+
+    /* END */
+    ///////////////////////////////////////////////
+    /* CONTACT */
+
+
+
+    /* END */
+    ///////////////////////////////////////////////
+    /* PARTNERS */
+
+
+
+    /* END */
+    ///////////////////////////////////////////////
+    /* FOOTER */
+
+
+
+    /* END */
 }
