@@ -8,7 +8,11 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FUENTE EXTRA PARA HEADER__INTRO -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -28,29 +32,48 @@
         Adquirir piano 
     -->
 
+    <!-- PRUEBA -->
+    <div class="prueba-medicion-586px"></div>
+    <!-- PRUEBA -->
+
     <header class="header__container">
-        
+        <nav class="navigation__container">
+            <div class="logo__container">
+                <img src="sources/images/logo.svg" alt="" class="logo__image">
+            </div>
+            <div class="list__container">
+                <ul class="menu__container">
+                    <li class="option__onlydesktop menu__option option__home">Home</li>
+                    <li class="option__onlydesktop menu__option option__pianos">Pianos</li>
+                    <li class="option__onlydesktop menu__option option__soy-estudiante">Soy estudiante</li>
+                    <li class="option__onlydesktop menu__option option__contactanos">Contáctanos</li>
+                    <li class="menu__option option__shopping-cart">
+                        <div class="image__cart">
+                            <img src="sources/images/shopping-cart.svg" alt="" class="menu__option__image--cart image--absolute">
+                            <img src="sources/images/shopping-cart-rectangle.svg" alt="" class="menu__option__image--rectangle image--absolute">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main class="main__container">
         <section class="intro__container">
-            <nav class="navigation__container">
-                <div class="logo__container">
-                    <img src="sources/images/logo.svg" alt="" class="logo__image">
-                </div>
-                <div class="list__container">
-                    <ul class="menu__container">
-                        <li class="menu__option option__home">Home</li>
-                        <li class="menu__option option__pianos">Pianos</li>
-                        <li class="menu__option option__soy-estudiante">Soy estudiante</li>
-                        <li class="menu__option option__contactanos">Contáctanos</li>
-                        <li class="menu__option option__shopping-cart">
-                            <img src="sources/images/shopping_cart.svg" alt="" class="menu__option__image-cart">
-                            <img src="sources/images/shopping-cart-1.svg" alt="" class="menu__option__image-1">
-                            <img src="sources/images/shopping-cart-rectangle.svg" alt="" class="menu__option__image-rectangle">
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <p class="intro__p text--letter-spacing">
+                El arte de tocar piano
+            </p>
+            <h1 class="intro__h1 text--letter-spacing">
+                Instituto Pazioli
+            </h1>
+            <div class="intro__buttons__container">
+                <button class="buttons__intro__action buttons__ver-cursos text--letter-spacing text--Poppins">
+                    Ver cursos
+                </button>
+                <button class="buttons__intro__action buttons__adquirir-piano text--letter-spacing text--Poppins">
+                    Adquirir piano
+                </button>
+            </div>
+            <img src="sources/images/piano.png" alt="" class="intro__piano__image">
         </section>
 
 

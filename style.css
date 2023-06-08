@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER__INTRO */
+/*
+
+ SIZES
+
+Height: 586px
+Width: 320px 
+
+*/
+.prueba-medicion-586px {
+  height: 586px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: red;
+}
+
+.header__container .navigation__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.header__container .logo__container .logo__image {
+  margin-left: 15.55px;
+}
+.header__container .list__container .menu__container {
+  display: flex;
+  list-style: none;
+}
+.header__container .list__container .menu__container .option__onlydesktop {
+  display: none;
+}
+.header__container .list__container .menu__container .option__shopping-cart .image__cart {
+  width: 47px;
+  height: 37px;
+  margin-right: 16.45px;
+  position: relative;
+}
+.header__container .list__container .menu__container .option__shopping-cart .image__cart .image--absolute {
+  position: absolute;
+}
+.header__container .list__container .menu__container .option__shopping-cart .image__cart .menu__option__image--cart {
+  top: 9px;
+  left: 7px;
+}
+.header__container .list__container .menu__container .option__shopping-cart .image__cart .menu__option__image--rectangle {
+  right: 0;
+  top: 0;
+}
+
+.main__container .intro__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 63px;
+}
+.main__container .intro__container .text--letter-spacing {
+  letter-spacing: 0.05em;
+}
+.main__container .intro__container .intro__p {
+  color: #858585;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+}
+.main__container .intro__container .intro__h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 32px;
+  line-height: 43px;
+  margin-top: 18px;
+}
+.main__container .intro__container .intro__buttons__container {
+  margin-top: 32px;
+}
+.main__container .intro__container .intro__buttons__container .text--Poppins {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+.main__container .intro__container .intro__buttons__container .buttons__intro__action {
+  width: 129px;
+  height: 32px;
+  border-radius: 8px;
+  border-style: none;
+}
+.main__container .intro__container .intro__buttons__container .buttons__ver-cursos {
+  background-color: #000000;
+  color: #ffffff;
+}
+.main__container .intro__container .intro__buttons__container .buttons__adquirir-piano {
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  margin-left: 16px;
+}
+.main__container .intro__container .intro__piano__image {
+  margin-top: 56px;
+}
+
+/* END */
+/*MEDIA QUERIES*/
+/* Version DESKTOP: 960px*/
+@media only screen and (min-width: 960px) {
+  .header__container .list__container .menu__container .option__onlydesktop {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
