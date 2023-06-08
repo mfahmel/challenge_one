@@ -1,5 +1,15 @@
 @import 'vars';
 
+@mixin Raleway600() {
+    font-family: $font-Raleway;
+    font-weight: 600;
+}
+
+@mixin Raleway700() {
+    font-family: $font-Raleway;
+    font-weight: 700;
+}
+
 * {
     margin: 0;
     padding: 0;
