@@ -37,9 +37,10 @@
 ### Botón:
 ![](https://i.ibb.co/R2gwc3R/Group-4.png)
 
-Define fuente, colores, ancho y alto: 
+Define fuente, colores, ancho, alto, etc.: 
 > @include Button;
 
 Para cambiar algún valor de una propiedad definida:
 > @include Button;
+
 > width: 100%;
