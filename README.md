@@ -34,7 +34,7 @@
 
 > *$secundary-color--yellow*: #FFBA60;
 
-### Botón
+### Botón:
 ![](https://i.ibb.co/R2gwc3R/Group-4.png)
 
 Define fuente, colores, ancho y alto: 
