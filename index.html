@@ -8,7 +8,11 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FUENTE EXTRA PARA HEADER__INTRO -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -28,12 +32,83 @@
         Adquirir piano 
     -->
 
+    <!-- PRUEBA -->
+    <div class="prueba-medicion-586px"></div>
+    <!-- PRUEBA -->
+
     <header class="header__container">
-        
+        <nav class="navigation__container">
+            <div class="logo__container">
+                <img src="sources/images/logo.svg" alt="Logo de Pazioli" class="logo__image">
+            </div>
+            <div class="list__container">
+                <ul class="menu__container">
+                    <a href="#">
+                        <li class="onlydesktop option__home">
+                            Home
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="onlydesktop option__pianos">
+                            Pianos
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="onlydesktop option__soy-estudiante">
+                            Soy estudiante
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="onlydesktop option__contactanos">
+                            <a href="www.google.com">
+                                <button class="option__button__contactanos">
+                                    Contáctanos
+                                </button>
+                            </a>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="option__shopping-cart">
+                            <div class="image__cart">
+                                <img src="sources/images/shopping-cart.svg" alt="Carrito de compras." class="menu__option__image--cart image--absolute">
+                                <img src="sources/images/shopping-cart-rectangle.svg" alt="Notificación de producto añadido de carrito de compras." class="menu__option__image--rectangle image--absolute">
+                            </div>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main class="main__container">
         <section class="intro__container">
-            
+            <p class="intro__p text--letter-spacing">
+                El arte de tocar piano
+            </p>
+            <h1 class="intro__h1 text--letter-spacing">
+                Instituto Pazioli
+            </h1>
+            <div class="intro__buttons__container">
+                <button class="buttons__intro__action buttons__ver-cursos text--letter-spacing text--Poppins">
+                    Ver cursos
+                </button>
+                <button class="buttons__intro__action buttons__adquirir-piano text--letter-spacing text--Poppins" type="button">
+                    Adquirir piano
+                </button>
+            </div>
+            <img src="sources/images/piano-mobile.png" alt="Imagen de un majestuoso piano negro de cola, destacando su elegante y pulida superficie. Las teclas brillantes y uniformes se extienden a lo largo del teclado, mientras que las patas robustas y ornamentadas agregan un toque de sofisticación. Este imponente instrumento musical se encuentra en un espacio bien iluminado, evocando un ambiente sereno y lleno de posibilidades musicales." class="intro__piano__image--mobile">
+            <img src="sources/images/piano-desktop.png" alt="Imagen de un majestuoso piano negro de cola, destacando su elegante y pulida superficie. Las teclas brillantes y uniformes se extienden a lo largo del teclado, mientras que las patas robustas y ornamentadas agregan un toque de sofisticación. Este imponente instrumento musical se encuentra en un espacio bien iluminado, evocando un ambiente sereno y lleno de posibilidades musicales." class="onlydesktop-section intro__piano__image--desktop">
+
+            <div class="socialmedia__logo">
+                <a href="#">
+                    <img src="sources/images/logo-facebook.svg" alt="Ir a Facebook" class="onlydesktop-section intro__socialmedia__image--facebook">
+                </a>
+                <a href="#">
+                    <img src="sources/images/logo-instagram.svg" alt="Ir a Instagram" class="onlydesktop-section intro__socialmedia__image--instagram logo__image--margin">
+                </a>
+                <a href="#">
+                    <img src="sources/images/logo-twitter.svg" alt="Ir a Twitter" class="onlydesktop-section intro__socialmedia__image--twitter logo__image--margin">
+                </a>
+            </div>
         </section>
 
 
@@ -55,7 +130,7 @@
 
 
         <section class="new-model__container">
-
+            
         </section>
 
 
