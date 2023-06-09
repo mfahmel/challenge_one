@@ -164,17 +164,108 @@
 
 
         <section class="articles__container">
-            <article class="articles__item">
+            <span class="articles__span">
+                ¿Qué tipo de piano<br>estás buscando?
+            </span>
+            <div class="articles__item__container">
+                <article class="articles__item">
+                    <img src="sources/images/piano_white.png">
+                    <p class="articles__item__p">
+                        The Butterfly
+                    </p>
+                    <ul class="articles__item__ul___container">
+                        <li class="item__li--especs">
+                            
+                            Nuevo
+                        </li>
+                        <li class="item__li--especs">
+                            <img class="articles__dotted" src="sources/images/article-circle.svg" alt="">
+                            2021
+                        </li>
+                        <li class="item__li--especs">
+                            <img class="articles__dotted" src="sources/images/article-circle.svg" alt="">
+                            Acús...
+                        </li>
+                        <li class="item__li--especs">
+                            <img class="articles__dotted" src="sources/images/article-circle.svg" alt="">
+                            M. Cedro
+                        </li>
+                    </ul>
+                    <div class="articles__item__buttons__container">
+                        <button class="item__button__action button__cash">
+                            Desde: <span class="cantidad">$ 195k mn</span>
+                        </button>
+                        <button class="item__button__action button__cart">
+                            <img src="sources/images/icon_cart.png" alt="" class="cart">
+                        </button>
+                    </div>
+                </article>
+                
+                
+                <article class="articles__item articles__margin">
+                    <img src="sources/images/piano_dorado.png">
+                    <p class="articles__item__p">
+                        The Butterfly
+                    </p>
+                    <ul class="articles__item__ul___container">
+                        <li class="item__li--especs">
+                            Nuevo
+                        </li>
+                        <li class="item__li--especs">
+                            <img class="articles__dotted" src="sources/images/article-circle.svg" alt="">
+                            2021
+                        </li>
+                        <li class="item__li--especs">
+                            <img class="articles__dotted" src="sources/images/article-circle.svg" alt="">
+                            Acús...
+                        </li>
+                        <li class="item__li--especs">
+                            <img class="articles__dotted" src="sources/images/article-circle.svg" alt="">
+                            M. Cedro
+                        </li>
+                    </ul>
+                    <div class="articles__item__buttons__container">
+                        <button class="item__button__action button__cash">
+                            Desde: <span class="cantidad">$ 195k mn</span>
+                        </button>
+                        <button class="item__button__action button__cart">
+                            <img src="sources/images/icon_cart.png" alt="" class="cart">
+                        </button>
+                    </div>
+                </article>
 
-            </article>
-            <article class="articles__item">
 
-            </article>
-            <article class="articles__item">
+                <article class="articles__item">
+                    <img src="sources/images/piano_brown.png">
+                    <p class="articles__item__p">
+                        The Butterfly
+                    </p>
+                    <ul class="articles__item__ul___container">
+                        <li class="item__li--especs">
+                            Nuevo
+                        </li>
+                        <li class="item__li--especs">
+                            2021
+                        </li>
+                        <li class="item__li--especs">
+                            Acús...
+                        </li>
+                        <li class="item__li--especs">
+                            M. Cedro
+                        </li>
+                    </ul>
+                    <div class="articles__item__buttons__container">
+                        <button class="item__button__action button__cash">
+                            Desde: <span class="cantidad">$ 195k mn</span>
+                        </button>
+                        <button class="item__button__action button__cart">
+                            <img src="sources/images/icon_cart.png" alt="" class="cart">
+                        </button>
+                    </div>
+                </article>
+            </div>
 
-            </article>
-
-            <button class="articles__see-more" type="button"></button>
+            <button class="articles__see-more" type="button">Ver más</button>
         
         </section>
 
@@ -192,9 +283,35 @@
             Enviar 
         -->
 
-        <section class="contact__container">        
-            <form action="" class="contact__form">
+        <section class="contact__container">     
+            <span class="contact__span">
+                Contactános
+            </span>   
+            <p class="contact__p">
+                ¿Quieres educarte formalmente en este instrumento? Toca más rápido, logra mayor fluidez en las composiciones complejas. Contactános para conocer tus objetivos.    
+            </p>
+            <form action="#" class="contact__form">
+                <label for="nombre" class="form__label form__nombre">
+                    Nombre
+                </label>
+                <input class="form__input" type="text" name="nombre" id="nombre">
 
+                <label for="telefono" class="form__label form__telefono form__margin-top">
+                    Teléfono
+                </label>
+                <input class="form__input" type="tel" name="telefono" id="telefono">
+
+                <label for="email" class="form__label form__email form__margin-top"> 
+                    Email
+                </label>
+                <input class="form__input" type="email" name="email" id="email">
+                
+                <label for="cuentanos-mas" class="form__label form__margin-top"> 
+                    Cuéntanos más
+                </label>
+                <textarea class="form__input form__cuentanos-mas" name="cuentanos-mas" id="cuentanos-mas"></textarea>
+
+                <input class="form__input__button form__margin-top" type="button" value="Enviar">
             </form>
         </section>
 
