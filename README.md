@@ -18,7 +18,7 @@
 ## Desktop version:
 *Width*: 960px
 
-## Variables (archivo vars.scss)
+## Variables (archivo vars.scss) y Mixins 
 
 ### Fuentes:
 
@@ -33,3 +33,13 @@
 > *$primary-color--white*: #ffffff;
 
 > *$secundary-color--yellow*: #FFBA60;
+
+### Botón
+![](https://i.ibb.co/R2gwc3R/Group-4.png)
+
+Define fuente, colores, ancho y alto: 
+> @include Button;
+
+Para cambiar algún valor de una propiedad definida:
+> @include Button;
+> width: 100%;
