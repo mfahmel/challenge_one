@@ -19,6 +19,7 @@
     color: $primary-color--white;
     @include Raleway700;
     font-size: 14px;
+    cursor: pointer;
 }
 
 
@@ -98,6 +99,7 @@ Width: 320px
                     margin: 0 24px;
                 }
             }
+
             /* END Desktop */
 
             .option__shopping-cart {
@@ -133,6 +135,10 @@ Width: 320px
         align-items: center;
         margin-top: 63px;
 
+        .onlydesktop-section {
+            display: none;
+        }
+
         .text--letter-spacing {
             letter-spacing: 0.05em;
         }
@@ -165,6 +171,7 @@ Width: 320px
                 height: 32px;
                 border-radius: 8px;
                 border-style: none;
+                cursor: pointer;
             }
 
             .buttons__ver-cursos {
@@ -246,6 +253,12 @@ Width: 320px
             flex-direction: column;
             align-items: center;
             margin-top: 63px;
+
+            position: relative;
+
+            .onlydesktop-section {
+                display: block;
+            }
     
             .intro__h1 {
                 font-size: 56px;  
@@ -259,6 +272,26 @@ Width: 320px
             .intro__piano__image--desktop {
                 margin-top: 90px;
             }
+
+            .socialmedia__logo {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
+                align-items: end;
+                margin-right: 32px;
+
+                position: absolute;
+                bottom: 100px;
+
+                .logo__image--margin {
+                    margin-top: 24px;
+                }
+    
+                /* .intro__socialmedia__image--twitter {
+    
+                } */
+            }             
         }
     }
 
