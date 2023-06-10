@@ -209,8 +209,8 @@ Width: 320px
   .piano__type__title {
     font-family: 'Abril Fatface';
     font-style: Bold;
-    font-weight: 700;
-    font-size: 26px;
+    font-weight: 400;
+    font-size: 24px;
     line-height: 32px;
     display: flex;
     align-items: center;
@@ -255,7 +255,7 @@ Width: 320px
 .piano__type__semititle{
    font-family: 'Abril Fatface';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     display: flex;
@@ -267,6 +267,7 @@ Width: 320px
   margin: 16px 57px 0px 11px;
 
 }
+
 .piano__type__specs{
   display: flex;
   margin: 16px 13px 16px 11px;
@@ -278,7 +279,7 @@ line-height: 14px;
 justify-content: space-between;
 
 display: flex;
-align-items: center;
+justify-content: space-between;
 letter-spacing: 0.05em;
 
 color: #000000;
@@ -298,17 +299,17 @@ border-radius: 8px;
 display: flex;
 margin: 10px 21px 10px 16px;
 align-items: center;
-padding-left: 6px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
+font-size: 16px;
 line-height: 19px;
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.10em;
 color: #000000;
+padding-left: 10px;
 
 }
 .piano__type__price-black{
@@ -326,6 +327,7 @@ color: #000000;
   justify-content: flex-end;
   }
 .piano__type__more{
+    display: flex;
   width: 129px;
   height: 32px;
   background-color: #000000;
@@ -338,9 +340,17 @@ color: #000000;
   text-align: center;
   letter-spacing: 0.05em;
   border-radius: 8px;
-  margin: 34px 95px 56px 96px;
+  margin: 0 auto;
   text-align: center;
   color: #FFFFFF;
+  justify-content: center;
+  margin-top: 34px;
+  margin-bottom: 80px;
+
+  &:hover {
+    background-color:rgba(0, 0, 0, 0.75);
+   
+  }
 }
 
 
@@ -371,14 +381,13 @@ color: #000000;
     .piano__type__card-one {
         
         
-        background-size: 250px 239px;
         box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
-        border-radius: 8px;
-        margin: 0 auto;
-        margin-top: 32px;
-        display: flex;
-        flex-direction: column;
-        
+      border-radius: 8px;
+      margin: 0 auto;
+      margin-top: 81px;
+      display: flex;
+      flex-direction: column;
+      height: 239px;
             }
     .piano__type__card {
       
@@ -386,25 +395,35 @@ color: #000000;
       box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
       border-radius: 8px;
       margin: 0 auto;
-      margin-top: 24px;
+      margin-top: 81px;
       display: flex;
       flex-direction: column;
+      height: 239px;
     }
-
-  
+ 
   
   .piano__type__image{
     margin: 20px 25px 16px 20px;
    
     width: 205px;
-    position: relative;bottom: 100px; 
+    position: relative;bottom: 120px; 
+
+  }
+  .piano__type__image-brown{
+    margin: 2.38px 25px 16px 20px;
+   
+    width: 205px;
+    position: relative;bottom: 120px; 
   }
       .piano__type__divisor{
+        position: relative;bottom: 120px;
+
       border: none;
     border-top: 1px dashed #DBDBDB;; 
     margin: 0px 9px 16px 9px;
     }
   .piano__type__semititle{
+    position: relative;bottom: 120px;
      font-family: 'Abril Fatface';
       font-style: normal;
       font-weight: 600;
@@ -419,7 +438,10 @@ color: #000000;
     margin: 16px 57px 0px 11px;
   
   }
+  
   .piano__type__specs{
+    position: relative;bottom: 120px;
+
     display: flex;
     margin: 16px 13px 16px 11px;
     font-family: 'Raleway';
@@ -436,11 +458,15 @@ color: #000000;
   color: #000000;
   }
   .piano__type__bottom{
+    position: relative;bottom: 0px;
+
     display: flex;
     align-items: center;
     margin-top: -12px;
   }
   .piano__type__price{
+    position: relative;bottom: 120px;
+
   box-sizing: border-box;
   width: 161px;
   height: 36px;
@@ -468,6 +494,8 @@ color: #000000;
     
   }
   .piano__type__cart{
+    position: relative;bottom: 120px;
+
     display: flex;
     width: 36px;
     height: 36px;
@@ -477,25 +505,31 @@ color: #000000;
     padding: 7px;
     justify-content: flex-end;
     }
-  .piano__type__more{
-    width: 129px;
-    height: 32px;
-    background-color: #000000;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 16px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.05em;
-    border-radius: 8px;
-    margin: 60px 414px 81px 417px;
-    text-align: center;
-    color: #FFFFFF;
-  
- 
-  }
+    .piano__type__more{
+        
+      width: 129px;
+      height: 32px;
+      background-color: #000000;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 16px;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.05em;
+      border-radius: 8px;
+      margin: 0 auto;
+      text-align: center;
+      color: #FFFFFF;
+      justify-content: center;
+      margin-top: 84px;
+      margin-bottom: 80px;
+      &:hover {
+        background-color:rgba(0, 0, 0, 0.75);
+       
+      }
+    }
   
   
   }
