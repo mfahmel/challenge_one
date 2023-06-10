@@ -262,13 +262,10 @@ Width: 320px
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
-    line-height: 16px;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.05em;
     border-radius: 8px;
     margin: 0 auto;
-    text-align: center;
     color: #FFFFFF;
     justify-content: center;
     margin-top: 34px;
@@ -276,6 +273,7 @@ Width: 320px
   }
   .piano__type__more:hover {
     background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
   }
 }
 /*DESKTOP*/
@@ -421,20 +419,16 @@ Width: 320px
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
-    line-height: 16px;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.05em;
     border-radius: 8px;
     margin: 0 auto;
-    text-align: center;
     color: #FFFFFF;
-    justify-content: center;
     margin-top: 84px;
     margin-bottom: 80px;
   }
   .piano__type__more:hover {
     background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
   }
 }
 /* END */
