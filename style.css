@@ -14,16 +14,6 @@ Height: 586px
 Width: 320px 
 
 */
-.prueba-medicion-586px {
-  height: 586px;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  /* background-color: red; */
-}
-
 .header__container .navigation__container {
   display: flex;
   justify-content: space-between;
@@ -265,6 +255,11 @@ Width: 320px
 .contact__container .contact__form .form__margin-top {
   margin-top: 24px;
 }
+.contact__container .contact__form .form__container__input--flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 .contact__container .contact__form .form__label {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -279,6 +274,10 @@ Width: 320px
   border-radius: 4px;
   width: 100%;
   margin-top: 8px;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  padding: 10px;
 }
 .contact__container .contact__form #cuentanos-mas {
   display: block;
@@ -362,6 +361,29 @@ Width: 320px
   }
   /* END */
   /* CONTACT */
+  .contact__container {
+    background-image: url(sources/images/form-background-desk.png);
+  }
+  .contact__container .contact__span {
+    font-size: 32px;
+  }
+  .contact__container .contact__p {
+    width: 561px;
+  }
+  .contact__container .contact__form {
+    width: 464px;
+  }
+  .contact__container .contact__form .form__container__input--flex {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .contact__container .contact__form .form__container__input--flex .input__flex_width {
+    width: 224px;
+  }
+  .contact__container .contact__form .form__container__input--flex .form__container__input--flex__email {
+    margin: 0;
+  }
   /* END */
   /* PARTNERS */
   /* END */

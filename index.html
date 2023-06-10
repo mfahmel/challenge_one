@@ -32,10 +32,6 @@
         Adquirir piano 
     -->
 
-    <!-- PRUEBA -->
-    <div class="prueba-medicion-586px"></div>
-    <!-- PRUEBA -->
-
     <header class="header__container">
         <nav class="navigation__container">
             <div class="logo__container">
@@ -296,15 +292,21 @@
                 </label>
                 <input class="form__input" type="text" name="nombre" id="nombre">
 
-                <label for="telefono" class="form__label form__telefono form__margin-top">
-                    Teléfono
-                </label>
-                <input class="form__input" type="tel" name="telefono" id="telefono">
-
-                <label for="email" class="form__label form__email form__margin-top"> 
-                    Email
-                </label>
-                <input class="form__input" type="email" name="email" id="email">
+                <div class="form__container__input--flex form__margin-top">
+                    <div class="form__container__input--flex__telefono input__flex_width">
+                        <label class="form__label form__telefono">
+                            <span class="form__container__span">Teléfono</span>
+                            <input class="form__input" type="tel" name="telefono" id="telefono">
+                        </label>
+                    </div>
+                    
+                    <div class="form__container__input--flex__email form__margin-top input__flex_width">
+                        <label class="form__label form__email">
+                            Email
+                            <input class="form__input" type="email" name="email" id="email">
+                        </label>
+                    </div>                  
+                </div>
                 
                 <label for="cuentanos-mas" class="form__label form__margin-top"> 
                     Cuéntanos más
