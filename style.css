@@ -244,6 +244,10 @@ Width: 320px
     padding: 7px;
     justify-content: flex-end;
   }
+  .piano__type__cart:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+  }
   .piano__type__more {
     display: flex;
     width: 129px;
@@ -396,6 +400,10 @@ Width: 320px
     border-radius: 8px;
     padding: 7px;
     justify-content: flex-end;
+  }
+  .piano__type__cart:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
   }
   .piano__type__more {
     width: 129px;
