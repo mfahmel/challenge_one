@@ -1,8 +1,52 @@
-@import 'vars';
+// Importar archivos de fuentes de Google
+.card__container{
+    margin:0;
+    padding:0;
+    line-height: 1.6;
+    font-family: '', sans-serif;
+    background: url('/sources/images/image2.png');
+    background-repeat: no-repeat;
+    
+    width: 320px;
+    height: 350px;
+   
+}
+.card__part__two{
+    margin:0;
+    padding:0;
+    line-height: 1.6;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: url('/sources/images/font__black.png');
+    
+    width: 320px;
+    height: 530px;
+    left: 0px;
+    top: 608px;
+}
+.cuerpo__1 img{
+    width: 209.4px;
+    position: absolute;
+}
+.image__container > .cuerpo__2 img{
+    width: 200px;
+    position: absolute;
+}
+.cuerpo__3 img{
+    width: 320px;
+    position: absolute;
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+}
+.cuerpo__4 img{
+    width: 320px;
+    position: absolute;
+}
+h2{
+    align-content: center;
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin: 10px;
+    font-family: "Abri fatface";
 }
 
