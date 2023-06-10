@@ -298,13 +298,14 @@ Width: 320px
     flex-direction: column;
     height: 239px;
   }
-  .piano__type__card-brown {
+  /* .piano__type__card-brown {
     height: 255px;
-  }
+  } */
   .piano__type__image,
   .piano__type__image-brown {
     margin: 20px 25px 16px 20px;
     width: 205px;
+    height: 166px !important;
     position: relative;
     bottom: 120px;
   }
@@ -330,9 +331,9 @@ Width: 320px
     justify-content: flex-start;
     margin: 16px 57px 0px 11px;
   }
-  .piano__type__semititle-brown {
+  /* .piano__type__semititle-brown {
     position: relative;
-  }
+  } */
   .piano__type__specs {
     position: relative;
     bottom: 120px;
