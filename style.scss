@@ -205,157 +205,145 @@ Width: 320px
 
 /*MOBILE*/
 @media only screen and (min-width: 320px) {
+    .piano__type__title {
+      font-family: 'Abril Fatface';
+      font-style: Bold;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 32px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.05em;
+      justify-content: center;
+      color: #000000;
+      margin: 32px 16px 16px 16px;
+    }
+    
+    .piano__type__card,
+    .piano__type__card-one {
+      width: 250px;
+      background: #FFFFFF;
+      box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
+      border-radius: 8px;
+      margin: 0 auto;
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .piano__type__image {
+      margin: 20px 25px 16px 20px;
+      width: 205px;
+    }
+    
+    .piano__type__divisor {
+      border: none;
+      border-top: 1px dashed #DBDBDB;
+      margin: 0px 9px 16px 9px;
+    }
+    
+    .piano__type__semititle {
+      font-family: 'Abril Fatface';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.05em;
+      color: #000000;
+      justify-content: flex-start;
+      margin: 16px 57px 0px 11px;
+    }
+    
+    .piano__type__specs {
+      display: flex;
+      margin: 16px 13px 16px 11px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      justify-content: space-between;
+      display: flex;
+      justify-content: space-between;
+      letter-spacing: 0.05em;
+      color: #000000;
+    }
+    
+    .piano__type__bottom {
+      display: flex;
+      align-items: center;
+      margin-top: -12px;
+    }
+    
+    .piano__type__price {
+      box-sizing: border-box;
+      width: 161px;
+      height: 36px;
+      background: #FFFFFF;
+      border: 1.5px solid #000000;
+      border-radius: 8px;
+      display: flex;
+      margin: 10px 21px 10px 16px;
+      align-items: center;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.10em;
+      color: #000000;
+      padding-left: 10px;
+    }
+    
+    .piano__type__price-black {
+      font-weight: 600;
+    }
+    
+    .piano__type__cart {
+      display: flex;
+      width: 36px;
+      height: 36px;
+      box-sizing: border-box;
+      background: #000000;
+      border-radius: 8px;
+      padding: 7px;
+      justify-content: flex-end;
+    }
+    
+    .piano__type__more {
+      display: flex;
+      width: 129px;
+      height: 32px;
+      background-color: #000000;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      align-items: center;
+      letter-spacing: 0.05em;
+      border-radius: 8px;
+      margin: 0 auto;
+      color: #FFFFFF;
+      justify-content: center;
+      margin-top: 34px;
+      margin-bottom: 80px;
+    
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.75);
+        cursor: pointer;
+      }
+    }
+  }
   
-  .piano__type__title {
-    font-family: 'Abril Fatface';
-    font-style: Bold;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.05em;
-    justify-content: center;
-    color: #000000;
-    margin: 32px 16px 16px 16px;
-   
-  }
-  .piano__type__card {
-    width: 250px;
-    background: #FFFFFF;
-    box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
-    border-radius: 8px;
-    margin: 0 auto;
-    margin-top: 24px;
-    display: flex;
-    flex-direction: column;
-  }
-  .piano__type__card-one {
-    width: 250px;
-    background: #FFFFFF;
-    box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
-    border-radius: 8px;
-    margin: 0 auto;
-    margin-top: 32px;
-    display: flex;
-    flex-direction: column;
-  }
-
-.piano__type__image{
-  margin: 20px 25px 16px 20px;
-  
-  width: 205px;
-}
-    .piano__type__divisor{
-    border: none;
-  border-top: 1px dashed #DBDBDB;; /* Cambia el color a tu preferencia */
-  margin: 0px 9px 16px 9px /* Ajusta el margen según tus necesidades */
-  }
-.piano__type__semititle{
-   font-family: 'Abril Fatface';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.05em;
-  
-  color: #000000;
-  justify-content: flex-start;
-  margin: 16px 57px 0px 11px;
-
-}
-
-.piano__type__specs{
-  display: flex;
-  margin: 16px 13px 16px 11px;
-  font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-justify-content: space-between;
-
-display: flex;
-justify-content: space-between;
-letter-spacing: 0.05em;
-
-color: #000000;
-}
-.piano__type__bottom{
-  display: flex;
-  align-items: center;
-  margin-top: -12px;
-}
-.piano__type__price{
-box-sizing: border-box;
-width: 161px;
-height: 36px;
-background: #FFFFFF;
-border: 1.5px solid #000000;
-border-radius: 8px;
-display: flex;
-margin: 10px 21px 10px 16px;
-align-items: center;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.10em;
-color: #000000;
-padding-left: 10px;
-
-}
-.piano__type__price-black{
-  font-weight: 600;
-  
-}
-.piano__type__cart{
-  display: flex;
-  width: 36px;
-  height: 36px;
-  box-sizing: border-box;
-  background: #000000;
-  border-radius: 8px;
-  padding: 7px;
-  justify-content: flex-end;
-  }
-.piano__type__more{
-    display: flex;
-  width: 129px;
-  height: 32px;
-  background-color: #000000;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  align-items: center;
-  letter-spacing: 0.05em;
-  border-radius: 8px;
-  margin: 0 auto;
-  color: #FFFFFF;
-  justify-content: center;
-  margin-top: 34px;
-  margin-bottom: 80px;
-
-  &:hover {
-    background-color:rgba(0, 0, 0, 0.75);
-    cursor: pointer;
-   
-  }
-}
-
-
-}
 /*DESKTOP*/
+
 @media only screen and (min-width: 960px) {
-  
     .piano__type__title {
       font-family: 'Abril Fatface';
       font-style: normal;
@@ -366,30 +354,19 @@ padding-left: 10px;
       text-align: center;
       letter-spacing: 0.05em;
       color: #000000;
-      margin:81px 244px 100px 246px;
-     display: flex;
-    
-    }
-    .piano__type__background{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    .piano__type__card-one {
-        
-        
-        box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
-      border-radius: 8px;
-      margin: 0 auto;
-      margin-top: 81px;
+      margin: 81px 244px 100px 246px;
       display: flex;
-      flex-direction: column;
-      height: 239px;
-            }
+    }
+  
+    .piano__type__background {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .piano__type__card-one,
     .piano__type__card {
-      
-     
       box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
       border-radius: 8px;
       margin: 0 auto;
@@ -398,31 +375,31 @@ padding-left: 10px;
       flex-direction: column;
       height: 239px;
     }
- 
-  
-  .piano__type__image{
-    margin: 20px 25px 16px 20px;
-   
-    width: 205px;
-    position: relative;bottom: 120px; 
-
-  }
-  .piano__type__image-brown{
-    margin: 2.38px 25px 16px 20px;
-   
-    width: 205px;
-    position: relative;bottom: 120px; 
-  }
-      .piano__type__divisor{
-        position: relative;bottom: 120px;
-
-      border: none;
-    border-top: 1px dashed #DBDBDB;; 
-    margin: 0px 9px 16px 9px;
+    
+    .piano__type__card-brown {
+      height: 255px;
     }
-  .piano__type__semititle{
-    position: relative;bottom: 120px;
-     font-family: 'Abril Fatface';
+  
+    .piano__type__image,
+    .piano__type__image-brown {
+      margin: 20px 25px 16px 20px;
+      width: 205px;
+      position: relative;
+      bottom: 120px;
+    }
+  
+    .piano__type__divisor {
+      position: relative;
+      bottom: 120px;
+      border: none;
+      border-top: 1px dashed #DBDBDB;
+      margin: 0px 9px 16px 9px;
+    }
+  
+    .piano__type__semititle {
+      position: relative;
+      bottom: 120px;
+      font-family: 'Abril Fatface';
       font-style: normal;
       font-weight: 600;
       font-size: 16px;
@@ -430,104 +407,105 @@ padding-left: 10px;
       display: flex;
       align-items: center;
       letter-spacing: 0.05em;
-    
-    color: #000000;
-    justify-content: flex-start;
-    margin: 16px 57px 0px 11px;
-  
-  }
-  
-  .piano__type__specs{
-    position: relative;bottom: 120px;
-
-    display: flex;
-    margin: 16px 13px 16px 11px;
-    font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  justify-content: space-between;
-  
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.05em;
-  
-  color: #000000;
-  }
-  .piano__type__bottom{
-    position: relative;bottom: 0px;
-
-    display: flex;
-    align-items: center;
-    margin-top: -12px;
-  }
-  .piano__type__price{
-    position: relative;bottom: 120px;
-
-  box-sizing: border-box;
-  width: 161px;
-  height: 36px;
-  background: #FFFFFF;
-  border: 1.5px solid #000000;
-  border-radius: 8px;
-  display: flex;
-  margin: 10px 21px 10px 16px;
-  align-items: center;
-  padding-left: 6px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.10em;
-  color: #000000;
-  
-  }
-  .piano__type__price-black{
-    font-weight: 600;
-    
-  }
-  .piano__type__cart{
-    position: relative;bottom: 120px;
-
-    display: flex;
-    width: 36px;
-    height: 36px;
-    box-sizing: border-box;
-    background: #000000;
-    border-radius: 8px;
-    padding: 7px;
-    justify-content: flex-end;
+      color: #000000;
+      justify-content: flex-start;
+      margin: 16px 57px 0px 11px;
     }
-    .piano__type__more{
-        
+  
+    .piano__type__semititle-brown {
+      position: relative;
+    }
+  
+    .piano__type__specs {
+      position: relative;
+      bottom: 120px;
+      display: flex;
+      margin: 16px 13px 16px 11px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.05em;
+      color: #000000;
+    }
+  
+    .piano__type__bottom {
+      position: relative;
+      bottom: 0px;
+      display: flex;
+      align-items: center;
+      margin-top: -12px;
+    }
+  
+    .piano__type__price {
+      position: relative;
+      bottom: 120px;
+      box-sizing: border-box;
+      width: 161px;
+      height: 36px;
+      background: #FFFFFF;
+      border: 1.5px solid #000000;
+      border-radius: 8px;
+      display: flex;
+      margin: 10px 21px 10px 16px;
+      align-items: center;
+      padding-left: 6px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.10em;
+      color: #000000;
+      justify-content: center;
+    }
+  
+    .piano__type__price-black {
+      font-weight: 600;
+    }
+  
+    .piano__type__cart {
+      position: relative;
+      bottom: 120px;
+      display: flex;
+      width: 36px;
+      height: 36px;
+      box-sizing: border-box;
+      background: #000000;
+      border-radius: 8px;
+      padding: 7px;
+      justify-content: flex-end;
+    }
+  
+    .piano__type__more {
       width: 129px;
       height: 32px;
       background-color: #000000;
       font-family: 'Raleway';
       font-style: normal;
       font-weight: 700;
-      font-size: 12px;     
+      font-size: 12px;
       letter-spacing: 0.05em;
       border-radius: 8px;
       margin: 0 auto;
-      
       color: #FFFFFF;
-      
       margin-top: 84px;
       margin-bottom: 80px;
+  
       &:hover {
-        background-color:rgba(0, 0, 0, 0.75);
+        background-color: rgba(0, 0, 0, 0.75);
         cursor: pointer;
       }
     }
-  
-  
   }
+   
 
 
 
