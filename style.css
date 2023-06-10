@@ -141,7 +141,8 @@ Width: 320px
 /* NEW-MODEL-PAGES */
 /* END */
 /* PIANO-TYPES */
-@media only screen and (min-width: 960px) {
+/*MOBILE*/
+@media only screen and (min-width: 320px) {
   .piano__type__title {
     font-family: "Abril Fatface";
     font-style: Bold;
@@ -270,34 +271,29 @@ Width: 320px
     color: #FFFFFF;
   }
 }
-@media only screen and (min-width: 320px) {
+/*DESKTOP*/
+@media only screen and (min-width: 960px) {
   .piano__type__title {
     font-family: "Abril Fatface";
-    font-style: Bold;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 32px;
-    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
     align-items: center;
     text-align: center;
     letter-spacing: 0.05em;
-    justify-content: center;
     color: #000000;
-    margin: 32px 16px 16px 16px;
-  }
-  .piano__type__card {
-    width: 250px;
-    background: #FFFFFF;
-    box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
-    border-radius: 8px;
-    margin: 0 auto;
-    margin-top: 24px;
+    margin: 81px 244px 100px 246px;
     display: flex;
-    flex-direction: column;
+  }
+  .piano__type__background {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
   .piano__type__card-one {
-    width: 250px;
-    background: #FFFFFF;
+    background-size: 250px 239px;
     box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
     border-radius: 8px;
     margin: 0 auto;
@@ -305,13 +301,23 @@ Width: 320px
     display: flex;
     flex-direction: column;
   }
+  .piano__type__card {
+    box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+  }
   .piano__type__image {
     margin: 20px 25px 16px 20px;
     width: 205px;
+    position: relative;
+    bottom: 100px;
   }
   .piano__type__divisor {
     border: none;
-    border-top: 1px dashed #DBDBDB; /* Cambia el color a tu preferencia */
+    border-top: 1px dashed #DBDBDB;
     margin: 0px 9px 16px 9px;
   }
   .piano__type__semititle {
@@ -394,7 +400,7 @@ Width: 320px
     text-align: center;
     letter-spacing: 0.05em;
     border-radius: 8px;
-    margin: 34px 95px 56px 96px;
+    margin: 60px 414px 81px 417px;
     text-align: center;
     color: #FFFFFF;
   }
