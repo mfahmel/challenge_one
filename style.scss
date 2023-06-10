@@ -43,18 +43,6 @@ Width: 320px
 
 */
 
-//////////////////////////////////////
-.prueba-medicion-586px {
-    height: 586px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    /* background-color: red; */
-}
-//////////////////////////////////////
-
 .header__container {
     .navigation__container {
         display: flex;
@@ -243,7 +231,13 @@ Width: 320px
             width: 100%;
         }
         .form__margin-top {
-            margin-top: 24px
+            margin-top: 24px;
+        }
+
+        .form__container__input--flex {
+            display: flex;
+            flex-direction: column;
+            width: 100%
         }
 
         .form__label  {
@@ -260,6 +254,10 @@ Width: 320px
             border-radius: 4px;
             width: 100%;
             margin-top: 8px;
+            color: $primary-color--white;
+            font-family: $font-Raleway;
+            font-size: 12px;
+            padding: 10px;
         }
 
         #cuentanos-mas {
@@ -392,6 +390,40 @@ Width: 320px
             }
        }   
     
+    }
+
+    /* END */
+    ///////////////////////////////////////////////
+    /* CONTACT */
+
+    .contact__container {
+        background-image: url(sources/images/form-background-desk.png);
+
+        .contact__span {
+            font-size: 32px;
+        }
+
+        .contact__p {
+            width: 561px;
+        }
+
+        .contact__form {
+            width: 464px;
+
+            .form__container__input--flex {
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+
+                .input__flex_width {
+                    width: 224px;
+                }
+
+                .form__container__input--flex__email {
+                    margin: 0;
+                }
+            }
+        }
     }
 
 
