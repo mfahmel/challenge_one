@@ -15,6 +15,7 @@
   width: 320px;
   height: 350px;
   background-size: contain;
+
 }
 
 .card__part__two {
@@ -29,7 +30,7 @@
   background-position: center;
   position: absolute;
   top: 262px;
-  opacity: 0.5;
+  
 }
 
 .image__container {
@@ -71,6 +72,8 @@ h2 {
   align-content: center;
   text-align: center;
   margin: 0px;
+  letter-spacing: 0.05em;
+
 }
 h3{
   font-family: 'Abril Fatface';
@@ -81,6 +84,17 @@ h3{
   font-size: 24px;
   color: aliceblue;
 }
+.value{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 20px;
+
+
+}
 p{
     text-align: center;
     margin: 0px;
@@ -90,8 +104,7 @@ p{
     letter-spacing: 5%;
     text-align: Center;
     color: aliceblue;
-    width: 288px;
-    height: 131px;
+   
     font-weight: 400;
     }
 #price__piano{

@@ -29,7 +29,6 @@
   background-position: center;
   position: absolute;
   top: 262px;
-  opacity: 0.5;
 }
 
 .image__container {
@@ -75,6 +74,7 @@ h2 {
   align-content: center;
   text-align: center;
   margin: 0px;
+  letter-spacing: 0.05em;
 }
 
 h3 {
@@ -87,6 +87,16 @@ h3 {
   color: aliceblue;
 }
 
+.value {
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
 p {
   text-align: center;
   margin: 0px;
@@ -96,8 +106,6 @@ p {
   letter-spacing: 5%;
   text-align: Center;
   color: aliceblue;
-  width: 288px;
-  height: 131px;
   font-weight: 400;
 }
 
