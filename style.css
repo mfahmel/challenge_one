@@ -1,21 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 .card__container {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  font-family: "Abri fatface";
+  font-family: "Abril Fatface";
   background: url("/sources/images/image2.png");
   background-repeat: no-repeat;
   width: 320px;
   height: 350px;
-  
+  background-size: contain;
 }
 
 .card__part__two {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  font-family: "Abri fatface";
+  font-family: "Abril Fatface";
   background: url("/sources/images/font__black.png");
   width: 320px;
   height: 530px;
@@ -25,6 +24,7 @@
 
 .cuerpo__1 img {
   width: 209.4px;
+  height: 175.46px;
   position: absolute;
 }
 
@@ -34,8 +34,11 @@
 }
 
 .cuerpo__3 img {
-  width: 159.09px;
   position: absolute;
+  width: 209.94px;
+  height: 175.46px;
+  left: 26.71px;
+  top: 80px;
 }
 
 .cuerpo__4 img {
@@ -46,10 +49,11 @@
 h2 {
   align-content: center;
   text-align: center;
+  margin: 0%;
 }
 
 p {
   text-align: center;
-  margin: 10px;
-  font-family: "Abri fatface";
+  margin: 0px;
+  font-family: "Raleway";
 }/*# sourceMappingURL=style.css.map */

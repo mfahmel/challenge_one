@@ -1,39 +1,49 @@
 // Importar archivos de fuentes de Google
+@import url(https://fonts.google.com/);
 .card__container{
     margin:0;
     padding:0;
     line-height: 1.6;
-    font-family: '', sans-serif;
+    font-family: ("Abril Fatface");
     background: url('/sources/images/image2.png');
     background-repeat: no-repeat;
     
     width: 320px;
     height: 350px;
+    background-size: contain;
    
 }
 .card__part__two{
     margin:0;
     padding:0;
-    line-height: 1.6;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: ("Abril Fatface");
     background: url('/sources/images/font__black.png');
-    
     width: 320px;
     height: 530px;
     left: 0px;
     top: 608px;
+    display: flex;
 }
 .cuerpo__1 img{
-    width: 209.4px;
-    position: absolute;
+    Width: 253.86px;
+    Height: 140.7px;
+    Top: 796.65px;
+    Left: 303.55px;
+    Opacity: 50%;
 }
-.image__container > .cuerpo__2 img{
-    width: 200px;
-    position: absolute;
-}
+.cuerpo__2 img{
+    height: 159.090087890625px;
+    width: 204.4613800048828px;
+    left: 75.97420501708984px;
+    top: 720.5462646484375px;
+    border-radius: 0px;
+
 .cuerpo__3 img{
-    width: 320px;
     position: absolute;
+    width: 209.94px;
+    height: 175.46px;
+    left: 26.71px;
+    top: 80px;
 
 }
 .cuerpo__4 img{
@@ -43,10 +53,19 @@
 h2{
     align-content: center;
     text-align: center;
+    margin: 0%;
 }
 p{
     text-align: center;
-    margin: 10px;
-    font-family: "Abri fatface";
+    margin: 0px;
+    font-family: "Raleway";
+    }
+ul{
+    display: flex;
 }
-
+li{
+    display: flex;
+}
+button{
+    background-color: black;
+}
