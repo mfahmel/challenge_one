@@ -1,76 +1,85 @@
-// Importar archivos de fuentes de Google
 @import url(https://fonts.google.com/);
-.piano__card__container{
-    background-image: url(./sources/images/font__black.png);
-    width: 320px;
-    height: 778px;
-}
-.card__container{
-    margin:0;
-    padding:0;
-    line-height: 1.6;
-    font-family: ("Abril Fatface");
-    background: url('./sources/images/image2.png');
-    background-repeat: no-repeat;
-    width: 320px;
-    height: 350px;
-    background-size: contain;
-   
-}
-.card__part__two{
-    margin:0;
-    padding:0;
-    font-family: ("Abril Fatface");
-    background: url('./sources/images/font__black.png');
-    width: 320px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    background-position: center;
-    position: absolute;
-    top: 262px;
-}
-.image__container{
-    display: flex;
-    position: absolute;
-
-    .cuerpo__1 img{
-        Width: 253.86px;
-        Height: 140.7px;
-        Top: 0.65px;
-        Left: 33.55px;
-        Opacity: 50%;
-        position: absolute;
-    }
-    .cuerpo__2 img{
-        height: 159.090087890625px;
-        width: 204.4613800048828px;
-        left: 75.97420501708984px;
-        top: 0.5462646484375px;
-        position: absolute;
-    }
-    .cuerpo__3 img{
-        position: absolute;
-        width: 209.94px;
-        top: 80px;
-        height: 175.46px;
-        left: 26.71px;
-        top: -7px;
-
-    }
-    .cuerpo__4 img{
-        width: 320px;
-        height: 175.46px;
-        left: 26.71px;
-        top: -15px;
-        position: absolute;
-    }
+.piano__card__container {
+  background-image: url(./sources/images/font__black.png);
+  width: 320px;
+  height: 778px;
 }
 
-h2{
-    align-content: center;
-    text-align: center;
-    margin: 0%;
+.card__container {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: "Abril Fatface";
+  background: url("./sources/images/image2.png");
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 350px;
+  background-size: contain;
+}
+
+.card__part__two {
+  margin: 0;
+  padding: 0;
+  font-family: "Abril Fatface";
+  background: url("./sources/images/font__black.png");
+  width: 320px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  position: absolute;
+  top: 262px;
+  opacity: 0.5;
+}
+
+.image__container {
+  display: flex;
+  position: absolute;
+}
+.image__container .cuerpo__1 img {
+  Width: 253.86px;
+  Height: 140.7px;
+  Top: 0.65px;
+  Left: 33.55px;
+  Opacity: 50%;
+  position: absolute;
+}
+.image__container .cuerpo__2 img {
+  height: 159.0900878906px;
+  width: 204.4613800049px;
+  left: 75.9742050171px;
+  top: 0.5462646484px;
+  position: absolute;
+}
+.image__container .cuerpo__3 img {
+  position: absolute;
+  width: 209.94px;
+  top: 80px;
+  height: 175.46px;
+  left: 26.71px;
+  top: -7px;
+}
+.image__container .cuerpo__4 img {
+  width: 320px;
+  height: 175.46px;
+  left: 26.71px;
+  top: -15px;
+  position: absolute;
+}
+
+h2 {
+  align-content: center;
+  text-align: center;
+  margin: 0px;
+}
+h3{
+  font-family: 'Abril Fatface';
+  position: absolute;
+  margin: 20px;
+  top: 260px;
+  left: 56px;
+  font-size: 24px;
+  color: aliceblue;
 }
 p{
     text-align: center;
@@ -80,39 +89,63 @@ p{
     Line-height: 18.78px;
     letter-spacing: 5%;
     text-align: Center;
-    }
-ul{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0%;
-    position: absolute;
-    width: 228px;
-    height: 14px;
-    left: 45.55px;
-    top: 1264px;
-
-}
-li{
-    display: flex;
-}
-button{
-    background-color: black;
     color: aliceblue;
-    border-radius: 8px;
-    width: 228px;
-    height: 32px;
-    font-family: Raleway;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0.05em;
-    text-align: center;
-    justify-content: center;
+    width: 288px;
+    height: 131px;
+    font-weight: 400;
+    }
+#price__piano{
+    font-size: 24px;
     position: absolute;
-    width: 228px;
-    height: 32px;
-    left: 45.55px;
-    top: 689px;
+    top: 341px;
+    font-family: 'Abril Fatface';
+    left: 53px;
 
+    p {
+    text-align: center;
+    margin: 0px;
+    font-family: "Raleway";
+    Size: 16px;
+    Line-height: 18.78px;
+    letter-spacing: 5%;
+    text-align: Center;
+    color: aliceblue;
+    }
+}
 
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0%;
+  position: absolute;
+  width: 228px;
+  height: 14px;
+  left: 45.55px;
+  top: 547px;
+  color: aliceblue;
+}
+
+li {
+  display: flex;
+  list-style: circle;
+}
+
+button {
+  background-color: black;
+  color: aliceblue;
+  border-radius: 8px;
+  width: 228px;
+  height: 32px;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  width: 228px;
+  height: 32px;
+  left: 45.55px;
+  top: 592px;
 }/*# sourceMappingURL=style.css.map */
