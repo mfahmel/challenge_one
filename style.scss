@@ -699,11 +699,7 @@ Width: 320px
     padding: 3px;
 }
 
-.foorer__flex__item > p{
-    padding: 25px;
-    padding-left: 0px;
-}
-.heart{
+.footer_heart{
     color: brown;
     font-size: 20px;
 }
@@ -716,6 +712,18 @@ Width: 320px
 ///////////////////////////////////////////////
 
 /*MEDIA QUERIES*/
+
+@media (max-width: 960px){
+    .footer__container{
+        flex-direction: column;
+    }
+    .foter__flex__item{
+        text-align: center;
+    }
+    .footer__flex__item__pazioli{
+        text-align: center;
+    }
+}
 
 /* Version DESKTOP: 960px*/
 
