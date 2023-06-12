@@ -875,53 +875,62 @@ Width: 320px
     box-sizing: content-box;
   }
   .piano__card__container .card__container .tarjeta .image__container .title span {
-    margin-top: 14px;
-    position: absolute;
-    width: 288px;
-    height: 64px;
-    left: 15.55px;
+    width: 470px;
+    height: 62px;
     font-family: "Abril Fatface";
-    font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 32px;
+    line-height: 43px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     letter-spacing: 0.05em;
     color: #000000;
+    padding-top: 32px;
+    justify-content: center;
+    flex-direction: column;
   }
   .piano__card__container .card__container .tarjeta .image__container .cuerpo__1 img {
-    width: 200px;
-    height: 150px;
+    width: 446px;
+    height: 247px;
     position: absolute;
-    top: 117px;
-    left: 63px;
+    top: 335px;
+    left: 194px;
   }
   .piano__card__container .card__container .tarjeta .image__container .cuerpo__2 img {
     position: absolute;
-    top: 74px;
-    left: 93px;
-    height: 159.0900878906px;
-    width: 204.4613800049px;
+    top: 290px;
+    left: 235px;
+    height: 279px;
+    width: 359px;
   }
   .piano__card__container .card__container .tarjeta .image__container .cuerpo__3 img {
-    width: 209.94px;
-    height: 175.46px;
-    top: 74px;
-    left: 45px;
+    top: 296px;
+    left: 138px;
     position: absolute;
+    width: 369.15px;
+    height: 308.53px;
   }
   .piano__card__container .card__container .tarjeta .image__container .cuerpo__4 img {
-    width: 200px;
+    width: 382px;
     position: absolute;
-    top: 78px;
-    left: 67px;
+    top: 299px;
+    left: 170px;
+    height: 180px;
+  }
+  .piano__card__container .card__container .tarjeta .image__container .fondo img {
+    background: linear-gradient(white, black, white);
+    position: relative;
+    z-index: 1;
   }
   .piano__card__container .card__part__two {
     display: flex;
     position: relative;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-around;
+    left: -267px;
   }
   .piano__card__container .card__part__two h3 {
     font-family: "Abril Fatface";
@@ -933,8 +942,10 @@ Width: 320px
     letter-spacing: 0.05em;
     color: #FFFFFF;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 20px;
+    width: 218px;
+    height: 32px;
   }
   .piano__card__container .card__part__two .value {
     display: flex;
@@ -952,13 +963,13 @@ Width: 320px
     margin: 20px;
     color: #FFFFFF;
     position: relative;
-    left: 31px;
+    left: -3px;
   }
   .piano__card__container .card__part__two .value img {
     position: absolute;
     width: 112px;
     height: 16px;
-    left: 139.55px;
+    left: 118.55px;
     top: 69px;
   }
   .piano__card__container .card__part__two .value #price__piano {
@@ -972,21 +983,23 @@ Width: 320px
     letter-spacing: 0.05em;
     justify-content: center;
     color: #FFFFFF;
-    position: initial;
+    position: relative;
+    left: -20px;
   }
   .piano__card__container .card__part__two #lorem {
-    color: #FFFFFF;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
     letter-spacing: 0.05em;
-    width: 281px;
+    width: 360px;
     height: 131px;
     margin-left: 14px;
-    margin-right: 18px;
+    margin-right: 4px;
+    position: relative;
+    left: -12px;
+    color: #FFFFFF;
   }
   .piano__card__container .card__part__two .list {
     flex-direction: row;
@@ -999,6 +1012,9 @@ Width: 320px
     align-items: baseline;
     margin-bottom: 20px;
     list-style-type: none;
+  }
+  .piano__card__container .card__part__two .list li {
+    margin-right: 9px;
   }
   .piano__card__container .card__part__two .new__button {
     border-radius: 8px;
@@ -1020,6 +1036,8 @@ Width: 320px
     margin-bottom: 32px;
     margin-left: 43px;
     background-color: black;
+    left: -45px;
+    position: relative;
   }
   /* END */
   /* CONTACT */
