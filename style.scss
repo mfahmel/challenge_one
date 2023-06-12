@@ -10,11 +10,10 @@
   padding: 0;
   line-height: 1.6;
   font-family: "Abril Fatface";
-  background: url("./sources/images/image2.png");
-  background-repeat: no-repeat;
   width: 320px;
   height: 350px;
   background-size: contain;
+  
 
 }
 
@@ -40,32 +39,45 @@
 .image__container .cuerpo__1 img {
   Width: 253.86px;
   Height: 140.7px;
-  Top: 0.65px;
+  Top: 101.65px;
   Left: 33.55px;
   Opacity: 50%;
   position: absolute;
+  z-index: 3;
 }
 .image__container .cuerpo__2 img {
   height: 159.0900878906px;
   width: 204.4613800049px;
   left: 75.9742050171px;
-  top: 0.5462646484px;
+  top: 075.546265px;
   position: absolute;
+  z-index: 4;
 }
 .image__container .cuerpo__3 img {
   position: absolute;
   width: 209.94px;
-  top: 80px;
+  top: 67px;
   height: 175.46px;
   left: 26.71px;
-  top: -7px;
+
+  z-index: 5;
 }
 .image__container .cuerpo__4 img {
-  width: 320px;
-  height: 175.46px;
-  left: 26.71px;
-  top: -15px;
+  width: 206px;
+  height: 102.46px;
+  left: 45.71px;
+  top: 69px;
   position: absolute;
+  z-index: 2;
+}
+.image__container .cuerpo__5 img{
+    width: 320px;
+    height: 262.46px;
+    left: -0.29px;
+    top: -8px;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 1;
 }
 
 h2 {
@@ -142,7 +154,10 @@ li {
   display: flex;
   list-style: circle;
 }
-
+#lorem{
+    margin-left: 14px;
+    margin-right: 18px;
+}
 button {
   background-color: black;
   color: aliceblue;
