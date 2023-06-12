@@ -616,6 +616,54 @@
 ///////////////////////////////////////////////
 /* PARTNERS */
 
+.partners__container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    177.96deg,
+    #6f6f6f 1.72%,
+    rgba(255, 255, 255, 0.43) 98.63%
+  );
+  .header-partners {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .title-partners {
+      width: 90%;
+      font-family: "Abril Fatface";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 32px;
+      margin-top: 1.5rem;
+      letter-spacing: 0.05em;
+
+      color: #000000;
+    }
+  }
+  .body-partners {
+    width: 100%;
+    .ctn-img-desktop {
+      display: none;
+    }
+
+    .ctn-img-mobile {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      img {
+        height: 110px;
+        margin-top: 2rem;
+      }
+    }
+  }
+}
+
 ///////////////////////////////////////////////
 /* FOOTER */
 .footer__container {
@@ -1208,6 +1256,55 @@
   /* END */
   ///////////////////////////////////////////////
   /* PARTNERS */
+
+  .partners__container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      177.96deg,
+      #6f6f6f 1.72%,
+      rgba(255, 255, 255, 0.43) 98.63%
+    );
+    .header-partners {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      .title-partners {
+        width: 90%;
+        font-family: "Abril Fatface";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 32px;
+        margin: 2rem;
+        letter-spacing: 0.05em;
+
+        color: #000000;
+      }
+    }
+    .body-partners {
+      width: 100%;
+      .ctn-img-desktop {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        img {
+          height: 104px;
+          margin-top: 2.5rem;
+        }
+      }
+
+      .ctn-img-mobile {
+        display: none;
+      }
+    }
+  }
 
   /* END */
   ///////////////////////////////////////////////
