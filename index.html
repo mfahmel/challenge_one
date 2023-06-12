@@ -32,10 +32,6 @@
         Adquirir piano 
     -->
 
-    <!-- PRUEBA -->
-    <div class="prueba-medicion-586px"></div>
-    <!-- PRUEBA -->
-
     <header class="header__container">
         <nav class="navigation__container">
             <div class="logo__container">
@@ -245,9 +241,41 @@
             Enviar 
         -->
 
-        <section class="contact__container">        
-            <form action="" class="contact__form">
+        <section class="contact__container">     
+            <span class="contact__span">
+                Contactános
+            </span>   
+            <p class="contact__p">
+                ¿Quieres educarte formalmente en este instrumento? Toca más rápido, logra mayor fluidez en las composiciones complejas. Contactános para conocer tus objetivos.    
+            </p>
+            <form action="#" class="contact__form">
+                <label for="nombre" class="form__label form__nombre">
+                    Nombre
+                </label>
+                <input class="form__input" type="text" name="nombre" id="nombre">
 
+                <div class="form__container__input--flex form__margin-top">
+                    <div class="form__container__input--flex__telefono input__flex_width">
+                        <label class="form__label form__telefono">
+                            <span class="form__container__span">Teléfono</span>
+                            <input class="form__input" type="tel" name="telefono" id="telefono">
+                        </label>
+                    </div>
+                    
+                    <div class="form__container__input--flex__email form__margin-top input__flex_width">
+                        <label class="form__label form__email">
+                            Email
+                            <input class="form__input" type="email" name="email" id="email">
+                        </label>
+                    </div>                  
+                </div>
+                
+                <label for="cuentanos-mas" class="form__label form__margin-top"> 
+                    Cuéntanos más
+                </label>
+                <textarea class="form__input form__cuentanos-mas" name="cuentanos-mas" id="cuentanos-mas"></textarea>
+
+                <input class="form__input__button form__margin-top" type="button" value="Enviar">
             </form>
         </section>
 
