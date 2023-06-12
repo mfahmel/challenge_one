@@ -849,6 +849,178 @@ Width: 320px
   /* NEW-MODEL-PAGES */
   /* END */
   /* PIANO-TYPES */
+  .piano__card__container {
+    background-image: url(./sources/images/image2.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 960px;
+    align-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    height: 761px;
+  }
+  .piano__card__container .card__container {
+    flex-direction: column;
+    position: relative;
+  }
+  .piano__card__container .card__container .tarjeta {
+    width: 320px;
+    height: 283px;
+    z-index: 3;
+  }
+  .piano__card__container .card__container .tarjeta .image__container {
+    position: relative;
+    box-sizing: content-box;
+  }
+  .piano__card__container .card__container .tarjeta .image__container .title span {
+    margin-top: 14px;
+    position: absolute;
+    width: 288px;
+    height: 64px;
+    left: 15.55px;
+    font-family: "Abril Fatface";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+  .piano__card__container .card__container .tarjeta .image__container .cuerpo__1 img {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 117px;
+    left: 63px;
+  }
+  .piano__card__container .card__container .tarjeta .image__container .cuerpo__2 img {
+    position: absolute;
+    top: 74px;
+    left: 93px;
+    height: 159.0900878906px;
+    width: 204.4613800049px;
+  }
+  .piano__card__container .card__container .tarjeta .image__container .cuerpo__3 img {
+    width: 209.94px;
+    height: 175.46px;
+    top: 74px;
+    left: 45px;
+    position: absolute;
+  }
+  .piano__card__container .card__container .tarjeta .image__container .cuerpo__4 img {
+    width: 200px;
+    position: absolute;
+    top: 78px;
+    left: 67px;
+  }
+  .piano__card__container .card__part__two {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  }
+  .piano__card__container .card__part__two h3 {
+    font-family: "Abril Fatface";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .piano__card__container .card__part__two .value {
+    display: flex;
+    flex-direction: column;
+  }
+  .piano__card__container .card__part__two .value p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    margin: 20px;
+    color: #FFFFFF;
+    position: relative;
+    left: 31px;
+  }
+  .piano__card__container .card__part__two .value img {
+    position: absolute;
+    width: 112px;
+    height: 16px;
+    left: 139.55px;
+    top: 69px;
+  }
+  .piano__card__container .card__part__two .value #price__piano {
+    font-family: "Abril Fatface";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    justify-content: center;
+    color: #FFFFFF;
+    position: initial;
+  }
+  .piano__card__container .card__part__two #lorem {
+    color: #FFFFFF;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    width: 281px;
+    height: 131px;
+    margin-left: 14px;
+    margin-right: 18px;
+  }
+  .piano__card__container .card__part__two .list {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    color: aliceblue;
+    margin-top: 58px;
+    align-items: baseline;
+    margin-bottom: 20px;
+    list-style-type: none;
+  }
+  .piano__card__container .card__part__two .new__button {
+    border-radius: 8px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.05em;
+    width: 228px;
+    height: 32px;
+    color: white;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    margin-left: 43px;
+    background-color: black;
+  }
   /* END */
   /* CONTACT */
   .contact__container {
