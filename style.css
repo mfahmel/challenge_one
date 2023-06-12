@@ -131,7 +131,7 @@ Width: 320px
 
 /* END */
 /* NEW-MODEL-PAGES */
-@media (max-width: 960px) {
+@media (max-width: 959px) {
   .piano__card__container {
     background: linear-gradient(white, black, white);
     display: flex;
@@ -308,6 +308,12 @@ Width: 320px
     margin-bottom: 32px;
     margin-left: 43px;
     background-color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .piano__card__container .card__part__two .new__button:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white; /* Cambia el color del texto a tu preferencia */
+    cursor: pointer; /* Cambia el tipo de cursor a tu preferencia (por ejemplo, pointer, grab, etc.) */
   }
 }
 /* END */
@@ -859,6 +865,15 @@ Width: 320px
   /* NEW-MODEL-PAGES */
   /* END */
   /* PIANO-TYPES */
+  /* END */
+  /* CONTACT */
+  /* END */
+  /* PARTNERS */
+  /* END */
+  /* FOOTER */
+  /* END */
+}
+@media only screen and (min-width: 960px) and (min-width: 960px) {
   .piano__card__container {
     background-repeat: no-repeat;
     display: flex;
@@ -1053,9 +1068,15 @@ Width: 320px
     background-color: black;
     left: -45px;
     position: relative;
+    transition: background-color 0.3s, color 0.3s, cursor 0.3s;
   }
-  /* END */
-  /* CONTACT */
+  .piano__card__container .card__part__two .new__button:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white; /* Cambia el color del texto a tu preferencia */
+    cursor: pointer; /* Cambia el tipo de cursor a tu preferencia (por ejemplo, pointer, grab, etc.) */
+  }
+}
+@media only screen and (min-width: 960px) {
   .contact__container {
     background-image: url(sources/images/form-background-desk.png);
   }
@@ -1079,9 +1100,4 @@ Width: 320px
   .contact__container .contact__form .form__container__input--flex .form__container__input--flex__email {
     margin: 0;
   }
-  /* END */
-  /* PARTNERS */
-  /* END */
-  /* FOOTER */
-  /* END */
 }/*# sourceMappingURL=style.css.map */

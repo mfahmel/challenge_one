@@ -185,7 +185,7 @@ Width: 320px
 /* NEW-MODEL-PAGES */
 @import url(https://fonts.google.com/);
 
-@media (max-width: 960px) {
+@media (max-width: 959px) {
   .piano__card__container {
     background: linear-gradient(white, black, white);
     display: flex;
@@ -352,30 +352,41 @@ Width: 320px
         list-style-type: none;
       }
 
-      .new__button{
+     
+    
+      .new__button {
         border-radius: 8px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    text-align: center;
-    letter-spacing: 0.05em;
-    width: 228px;
-    height: 32px;
-    color: #FFFF;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 32px;
-    margin-left: 43px;
-    background-color: black;
-      }
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        text-align: center;
+        letter-spacing: 0.05em;
+        width: 228px;
+        height: 32px;
+        color: #FFFF;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
+        margin-left: 43px;
+        background-color: black;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .new__button:hover {
+      background-color: rgba(0, 0, 0, 0.75);
+        color: white; /* Cambia el color del texto a tu preferencia */
+        cursor: pointer; /* Cambia el tipo de cursor a tu preferencia (por ejemplo, pointer, grab, etc.) */
+    
+  
+  
     }
 
-
+  }
   }
   
 }
@@ -977,6 +988,7 @@ Width: 320px
   /* END */
   ///////////////////////////////////////////////
   /* PIANO-TYPES */
+  @media only screen and (min-width: 960px){
   .piano__card__container{
     background-repeat: no-repeat;
     display: flex;
@@ -1160,34 +1172,42 @@ Width: 320px
       }
 
 
-      .new__button{
+      .new__button {
         border-radius: 8px;
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    text-align: center;
-    letter-spacing: 0.05em;
-    width: 228px;
-    height: 32px;
-    color: white;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 32px;
-    margin-left: 43px;
-    background-color: black;
-    left: -45px;
-    position: relative;
-      }
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        text-align: center;
+        letter-spacing: 0.05em;
+        width: 228px;
+        height: 32px;
+        color: white;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
+        margin-left: 43px;
+        background-color: black;
+        left: -45px;
+        position: relative;
+        transition: background-color 0.3s, color 0.3s, cursor 0.3s;
+    }
+    
+    .new__button:hover {
+      background-color: rgba(0, 0, 0, 0.75);
+        color: white; /* Cambia el color del texto a tu preferencia */
+        cursor: pointer; /* Cambia el tipo de cursor a tu preferencia (por ejemplo, pointer, grab, etc.) */
+    }
+    
     
     }
     
   }
-
+  }
   
 
 
