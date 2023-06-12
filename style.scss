@@ -1,80 +1,95 @@
 @import url(https://fonts.google.com/);
 
 @media (max-width: 960px) {
+  .piano__card__container {
+    background-image: url(./sources/images/font__black.png);
+    width: 320px;
+    height: 778px;
+    box-sizing: border-box;
+  }
 
+  .card__container {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: "Abril Fatface";
+    width: 320px;
+    height: 350px;
+    background-size: contain;
+  }
 
-.piano__card__container {
-  background-image: url(./sources/images/font__black.png);
-  width: 320px;
-  height: 778px;
-}
+  .card__part__two {
+    margin: 0;
+    padding: 0;
+    font-family: "Abril Fatface";
+    background: url("./sources/images/font__black.png");
+    width: 320px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    position: absolute;
+    top: 262px;
+  }
 
-.card__container {
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  font-family: "Abril Fatface";
-  width: 320px;
-  height: 350px;
-  background-size: contain;
-  
+  .image__container {
+    display: flex;
+    position: absolute;
 
-}
+    span {
+      display: flex;
+      position: relative;
+      text-align: center;
+      justify-content: center;
+      align-items: baseline;
+      width: 250px;
+      margin: 0 auto;
+      margin-left: 35px;
+      font-size: 24px;
+      font-family: "Abril Fatface";
+      top: -10px;
+      z-index: 7;
+    }
 
-.card__part__two {
-  margin: 0;
-  padding: 0;
-  font-family: "Abril Fatface";
-  background: url("./sources/images/font__black.png");
-  width: 320px;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  background-position: center;
-  position: absolute;
-  top: 262px;
-  
-}
+    .cuerpo__1 img {
+      width: 253.86px;
+      height: 140.7px;
+      top: 101.65px;
+      left: 33.55px;
+      opacity: 50%;
+      position: absolute;
+      z-index: 3;
+    }
 
-.image__container {
-  display: flex;
-  position: absolute;
-}
-.image__container .cuerpo__1 img {
-  Width: 253.86px;
-  Height: 140.7px;
-  Top: 101.65px;
-  Left: 33.55px;
-  Opacity: 50%;
-  position: absolute;
-  z-index: 3;
-}
-.image__container .cuerpo__2 img {
-  height: 159.0900878906px;
-  width: 204.4613800049px;
-  left: 75.9742050171px;
-  top: 075.546265px;
-  position: absolute;
-  z-index: 4;
-}
-.image__container .cuerpo__3 img {
-  position: absolute;
-  width: 209.94px;
-  top: 67px;
-  height: 175.46px;
-  left: 26.71px;
+    .cuerpo__2 img {
+      height: 159.0900878906px;
+      width: 204.4613800049px;
+      left: 75.9742050171px;
+      top: 75.546265px;
+      position: absolute;
+      z-index: 4;
+    }
 
-  z-index: 5;
-}
-.image__container .cuerpo__4 img {
-  width: 206px;
-  height: 102.46px;
-  left: 45.71px;
-  top: 69px;
-  position: absolute;
-  z-index: 2;
-}
-.image__container .cuerpo__5 img{
+    .cuerpo__3 img {
+      position: absolute;
+      width: 209.94px;
+      top: 67px;
+      height: 175.46px;
+      left: 26.71px;
+      z-index: 5;
+    }
+
+    .cuerpo__4 img {
+      width: 206px;
+      height: 102.46px;
+      left: 45.71px;
+      top: 69px;
+      position: absolute;
+      z-index: 2;
+    }
+  }
+
+  .fondo {
     width: 320px;
     height: 262.46px;
     left: -0.29px;
@@ -82,103 +97,104 @@
     position: absolute;
     opacity: 0.5;
     z-index: 1;
-}
+    background-image: url(./sources/images/image2.png);
+    background-size: cover;
+  }
 
-h2 {
-  align-content: center;
-  text-align: center;
-  margin: 0px;
-  letter-spacing: 0.05em;
+  h2 {
+    align-content: center;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 0.05em;
+  }
 
-}
-h3{
-  font-family: 'Abril Fatface';
-  position: absolute;
-  margin: 20px;
-  top: 260px;
-  left: 56px;
-  font-size: 24px;
-  color: aliceblue;
-}
-.value{
-    display: flex;
+  h3 {
+    font-family: "Abril Fatface";
+    position: absolute;
+    margin: 20px;
+    top: 260px;
+    left: 56px;
+    font-size: 24px;
+    color: aliceblue;
+  }
+
+  .value {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
     justify-content: space-evenly;
     margin: 20px;
+  }
 
-
-}
-p{
+  p {
     text-align: center;
-    margin: 0px;
+    margin: 0;
     font-family: "Raleway";
-    Size: 16px;
-    Line-height: 18.78px;
+    font-size: 16px;
+    line-height: 18.78px;
     letter-spacing: 5%;
-    text-align: Center;
+    text-align: center;
     color: aliceblue;
-   
     font-weight: 400;
-    }
-#price__piano{
+  }
+
+  #price__piano {
     font-size: 24px;
     position: absolute;
     top: 341px;
-    font-family: 'Abril Fatface';
+    font-family: "Abril Fatface";
     left: 53px;
 
     p {
-    text-align: center;
-    margin: 0px;
-    font-family: "Raleway";
-    Size: 16px;
-    Line-height: 18.78px;
-    letter-spacing: 5%;
-    text-align: Center;
-    color: aliceblue;
+      text-align: center;
+      margin: 0;
+      font-family: "Raleway";
+      font-size: 16px;
+      line-height: 18.78px;
+      letter-spacing: 5%;
+      text-align: center;
+      color: aliceblue;
     }
-}
+  }
 
-ul {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0%;
-  position: absolute;
-  width: 228px;
-  height: 14px;
-  left: 45.55px;
-  top: 547px;
-  color: aliceblue;
-}
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    position: absolute;
+    width: 228px;
+    height: 14px;
+    left: 45.55px;
+    top: 547px;
+    color: aliceblue;
+  }
 
-li {
-  display: flex;
-  list-style: circle;
-}
-#lorem{
+  li {
+    display: flex;
+    list-style: circle;
+  }
+
+  #lorem {
     margin-left: 14px;
     margin-right: 18px;
-}
-button {
-  background-color: black;
-  color: aliceblue;
-  border-radius: 8px;
-  width: 228px;
-  height: 32px;
-  font-family: Raleway;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0.05em;
-  text-align: center;
-  justify-content: center;
-  position: absolute;
-  width: 228px;
-  height: 32px;
-  left: 45.55px;
-  top: 592px;
-}/*# sourceMappingURL=style.css.map */
+  }
+
+  button {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 8px;
+    width: 228px;
+    height: 32px;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    left: 45.55px;
+    top: 592px;
+  }
 }

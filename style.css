@@ -4,6 +4,7 @@
     background-image: url(./sources/images/font__black.png);
     width: 320px;
     height: 778px;
+    box-sizing: border-box;
   }
   .card__container {
     margin: 0;
@@ -31,12 +32,26 @@
     display: flex;
     position: absolute;
   }
+  .image__container span {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+    width: 250px;
+    margin: 0 auto;
+    margin-left: 35px;
+    font-size: 24px;
+    font-family: "Abril Fatface";
+    top: -10px;
+    z-index: 7;
+  }
   .image__container .cuerpo__1 img {
-    Width: 253.86px;
-    Height: 140.7px;
-    Top: 101.65px;
-    Left: 33.55px;
-    Opacity: 50%;
+    width: 253.86px;
+    height: 140.7px;
+    top: 101.65px;
+    left: 33.55px;
+    opacity: 50%;
     position: absolute;
     z-index: 3;
   }
@@ -64,7 +79,7 @@
     position: absolute;
     z-index: 2;
   }
-  .image__container .cuerpo__5 img {
+  .fondo {
     width: 320px;
     height: 262.46px;
     left: -0.29px;
@@ -72,11 +87,13 @@
     position: absolute;
     opacity: 0.5;
     z-index: 1;
+    background-image: url(./sources/images/image2.png);
+    background-size: cover;
   }
   h2 {
     align-content: center;
     text-align: center;
-    margin: 0px;
+    margin: 0;
     letter-spacing: 0.05em;
   }
   h3 {
@@ -90,7 +107,6 @@
   }
   .value {
     display: flex;
-    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
@@ -99,12 +115,12 @@
   }
   p {
     text-align: center;
-    margin: 0px;
+    margin: 0;
     font-family: "Raleway";
-    Size: 16px;
-    Line-height: 18.78px;
+    font-size: 16px;
+    line-height: 18.78px;
     letter-spacing: 5%;
-    text-align: Center;
+    text-align: center;
     color: aliceblue;
     font-weight: 400;
   }
@@ -117,18 +133,18 @@
   }
   #price__piano p {
     text-align: center;
-    margin: 0px;
+    margin: 0;
     font-family: "Raleway";
-    Size: 16px;
-    Line-height: 18.78px;
+    font-size: 16px;
+    line-height: 18.78px;
     letter-spacing: 5%;
-    text-align: Center;
+    text-align: center;
     color: aliceblue;
   }
   ul {
     display: flex;
     justify-content: space-evenly;
-    padding: 0%;
+    padding: 0;
     position: absolute;
     width: 228px;
     height: 14px;
@@ -158,9 +174,7 @@
     text-align: center;
     justify-content: center;
     position: absolute;
-    width: 228px;
-    height: 32px;
     left: 45.55px;
     top: 592px;
-  } 
+  }
 }/*# sourceMappingURL=style.css.map */
