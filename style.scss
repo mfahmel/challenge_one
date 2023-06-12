@@ -161,30 +161,22 @@
         border-radius: 8px;
         border-style: none;
         cursor: pointer;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.75);
+          cursor: pointer;
+        }
       }
 
       .buttons__ver-cursos {
         background-color: $primary-color--black;
         color: $primary-color--white;
-
-        &:hover {
-          border: 1px solid $primary-color--black;
-          background-color: $primary-color--white;
-          color: $primary-color--black;
-        }
       }
 
       .buttons__adquirir-piano {
         border: 1px solid $primary-color--black;
         background-color: $primary-color--white;
         margin-left: 16px;
-
-        &:hover {
-          background-color: rgba(0, 0, 0, 0.75);
-          border: 1px solid $primary-color--white;
-          background-color: $primary-color--black;
-          color: $primary-color--white;
-        }
       }
     }
 
