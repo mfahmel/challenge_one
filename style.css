@@ -264,7 +264,7 @@ Width: 320px
 }
 .partners__container {
   width: 100%;
-  height: 100vh;
+  height: 47vh;
   background: linear-gradient(177.96deg, #6F6F6F 1.72%, rgba(255, 255, 255, 0.43) 98.63%);
 }
 .partners__container .header-partners {
@@ -580,8 +580,12 @@ Width: 320px
     align-content: center;
   }
   .partners__container .body-partners .ctn-img-desktop img {
-    height: 104px;
-    margin-top: 2.5rem;
+    width: 100%;
+    height: 100px;
+    margin-top: 3rem;
+  }
+  .partners__container .body-partners .ctn-img-desktop img:nth-of-type(odd) {
+    width: 70%;
   }
   .partners__container .body-partners .ctn-img-mobile {
     display: none;
