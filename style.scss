@@ -600,9 +600,114 @@ Width: 320px
 
 
 
-/* END */
 ///////////////////////////////////////////////
 /* FOOTER */
+.footer__container{
+    display: flex;
+    flex: 100%;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer__background{
+    background: linear-gradient(rgb(250, 250, 252), rgb(199, 199, 199));
+}
+.footer__container2{
+    display: flex;
+    flex: 100%;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+}
+.footer__container3{
+    display: flex;
+    flex: 100%;
+    flex-direction:column;
+    flex-wrap: wrap;
+    padding: 0px;
+    
+}
+.foter__flex__item{
+    flex: 33%;
+    text-align: left;
+    padding: 6px;
+}
+.foter__flex__item-powered{
+    flex: 33%;
+    text-align: center;
+    padding: 6px;
+}
+.footer__flex__item__pazioli{
+    flex: 66;
+    padding-top: 33px;
+}
+.menuUs{
+    list-style-type: none;
+}
+
+.menuContactUs > li {
+    list-style-type: none;
+}
+.foter__flex__item-socialnetworks{
+    flex: 33%;
+    text-align: center;
+}
+
+.flex__madeIn{
+    flex-direction: row;
+    align-items: center;
+}
+.footer_title{
+    padding: 15px;
+    font-weight:400;
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 14px;
+    line-height: 18.84px;
+}
+.footer_title_content{
+    padding: 5px;
+    font-weight:300;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+.footer_logo{
+    padding: 60px;
+    z-index: -1;
+}
+.footer__logo__background{
+    background-image: url(sources/images/fondo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer_social_networks{
+    flex: 33%;
+    text-align: center;
+    padding: 30px;
+}
+.footer_social_networks>p>a{
+    text-decoration: none;
+}
+.footer_fondo{
+    padding: 60px;
+    position:absolute;
+    z-index: 1;
+}
+.footer_flex__item>.menuUs>.foorer_flex__item1{
+    padding: 3px;
+}
+
+.foorer__flex__item > p{
+    padding: 25px;
+    padding-left: 0px;
+}
+.heart{
+    color: brown;
+    font-size: 20px;
+}
+/* END */
 
 
 
