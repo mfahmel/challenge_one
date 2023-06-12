@@ -965,7 +965,6 @@ Width: 320px
   ///////////////////////////////////////////////
   /* PIANO-TYPES */
   .piano__card__container{
-    background-image: url(./sources/images/image2.png);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -975,6 +974,7 @@ Width: 320px
     margin: auto;
     flex-wrap: wrap;
     height: 761px;
+    background: linear-gradient(0deg, transparent,black, transparent);
 
     .card__container{
       flex-direction: column;
@@ -991,6 +991,7 @@ Width: 320px
         position: relative;
         box-sizing: content-box;
         .title span{
+          position: relative;
           width: 470px;
           height: 62px;
           font-family: "Abril Fatface";
@@ -1005,6 +1006,7 @@ Width: 320px
           padding-top: 32px;
           justify-content: center;
           flex-direction: column;
+          left: -56px;
         }
         .cuerpo__1 img{
           width: 446px;
@@ -1035,10 +1037,12 @@ Width: 320px
           height: 180px;
         }
         .fondo img{
-          background: linear-gradient(white,black,white);
+          background: linear-gradient(white 10%, black 60%, white 10%);
+          z-index: -1;
           position: relative;
-          z-index: 1;
-
+          left: -320px;
+          top: -74px;
+          opacity: 0.3;
         }
       }
       
