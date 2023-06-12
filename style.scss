@@ -198,6 +198,193 @@
 ///////////////////////////////////////////////
 /* NEW-MODEL-PAGES */
 
+@import url(https://fonts.google.com/);
+
+@media (max-width: 959px) {
+  .piano__card__container {
+    background: linear-gradient(white, black, white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    align-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+
+    .tarjeta {
+      background-image: url(./sources/images/image2.png);
+      width: 320px;
+      height: 283px;
+      z-index: 3;
+
+      .image__container {
+        position: relative;
+        box-sizing: content-box;
+        .title span {
+          margin-top: 14px;
+          position: absolute;
+          width: 288px;
+          height: 64px;
+          left: 15.55px;
+          font-family: "Abril Fatface";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 32px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          letter-spacing: 0.05em;
+          color: #000000;
+          z-index: 2;
+        }
+        .cuerpo__1 img {
+          width: 200px;
+          height: 150px;
+          position: absolute;
+          top: 117px;
+          left: 63px;
+        }
+        .cuerpo__2 img {
+          position: absolute;
+          top: 74px;
+          left: 93px;
+          height: 159.090087890625px;
+          width: 204.4613800048828px;
+        }
+        .cuerpo__3 img {
+          width: 209.94px;
+          height: 175.46px;
+          top: 74px;
+          left: 45px;
+          position: absolute;
+          z-index: 3;
+        }
+        .cuerpo__4 img {
+          width: 200px;
+          position: absolute;
+          top: 78px;
+          left: 67px;
+        }
+
+        .fondo img {
+          background-image: url(./sources/images/image2.png);
+          width: 320px;
+          height: 283px;
+          z-index: 0;
+          position: relative;
+          opacity: 0.3;
+        }
+      }
+    }
+    .card__part__two {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+
+      h3 {
+        font-family: "Abril Fatface";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        display: flex;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .value {
+        display: flex;
+        flex-direction: column;
+        p {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 14px;
+          display: flex;
+          align-items: center;
+          letter-spacing: 0.05em;
+          margin: 20px;
+          color: #ffffff;
+          position: relative;
+          left: 31px;
+        }
+        img {
+          position: absolute;
+          width: 112px;
+          height: 16px;
+          left: 139.55px;
+          top: 69px;
+        }
+        #price__piano {
+          font-family: "Abril Fatface";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 32px;
+          display: flex;
+          align-items: center;
+          letter-spacing: 0.05em;
+          justify-content: center;
+          color: #ffffff;
+          position: initial;
+        }
+      }
+      #lorem {
+        color: #ffffff;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        width: 281px;
+        height: 131px;
+        margin-left: 14px;
+        margin-right: 18px;
+      }
+      .list {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        color: aliceblue;
+        margin-top: 58px;
+        align-items: baseline;
+        margin-bottom: 20px;
+        list-style-type: none;
+      }
+
+      .new__button {
+        border-radius: 8px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        text-align: center;
+        letter-spacing: 0.05em;
+        width: 228px;
+        height: 32px;
+        color: #ffff;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
+        margin-left: 43px;
+        background-color: black;
+      }
+    }
+  }
+}
+
 /* END */
 ///////////////////////////////////////////////
 /* PIANO-TYPES */
@@ -622,21 +809,23 @@
   ///////////////////////////////////////////////
   /* NEW-MODEL-PAGES */
 
-  @import url(https://fonts.google.com/);
+  .piano__card__container {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 960px;
+    align-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    height: 761px;
+    background: linear-gradient(0deg, transparent, black, transparent);
 
-  @media (max-width: 959px) {
-    .piano__card__container {
-      background: linear-gradient(white, black, white);
-      display: flex;
+    .card__container {
       flex-direction: column;
-      align-items: center;
-      width: 320px;
-      align-content: center;
-      margin: auto;
-      flex-wrap: wrap;
+      position: relative;
 
       .tarjeta {
-        background-image: url(./sources/images/image2.png);
         width: 320px;
         height: 283px;
         z-index: 3;
@@ -645,166 +834,179 @@
           position: relative;
           box-sizing: content-box;
           .title span {
-            margin-top: 14px;
-            position: absolute;
-            width: 288px;
-            height: 64px;
-            left: 15.55px;
+            position: relative;
+            width: 470px;
+            height: 62px;
             font-family: "Abril Fatface";
-            font-style: normal;
             font-weight: 400;
-            font-size: 24px;
-            line-height: 32px;
+            font-size: 32px;
+            line-height: 43px;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             text-align: center;
             letter-spacing: 0.05em;
             color: #000000;
-            z-index: 2;
+            padding-top: 32px;
+            justify-content: center;
+            flex-direction: column;
+            left: -56px;
           }
           .cuerpo__1 img {
-            width: 200px;
-            height: 150px;
+            width: 446px;
+            height: 247px;
             position: absolute;
-            top: 117px;
-            left: 63px;
+            top: 335px;
+            left: 194px;
           }
           .cuerpo__2 img {
             position: absolute;
-            top: 74px;
-            left: 93px;
-            height: 159.090087890625px;
-            width: 204.4613800048828px;
+            top: 290px;
+            left: 235px;
+            height: 279px;
+            width: 359px;
           }
           .cuerpo__3 img {
-            width: 209.94px;
-            height: 175.46px;
-            top: 74px;
-            left: 45px;
+            top: 296px;
+            left: 138px;
             position: absolute;
-            z-index: 3;
+            width: 369.15px;
+            height: 308.53px;
           }
           .cuerpo__4 img {
-            width: 200px;
+            width: 382px;
             position: absolute;
-            top: 78px;
-            left: 67px;
+            top: 299px;
+            left: 170px;
+            height: 180px;
           }
-
           .fondo img {
-            background-image: url(./sources/images/image2.png);
-            width: 320px;
-            height: 283px;
-            z-index: 0;
+            background: linear-gradient(white 10%, black 60%, white 10%);
+            z-index: -1;
             position: relative;
+            left: -320px;
+            top: -74px;
             opacity: 0.3;
           }
         }
       }
-      .card__part__two {
-        display: flex;
-        position: relative;
-        flex-direction: column;
+    }
+    .card__part__two {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      align-content: space-around;
+      left: -267px;
 
-        h3 {
+      h3 {
+        font-family: "Abril Fatface";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        display: flex;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 20px;
+        width: 218px;
+        height: 32px;
+      }
+      .value {
+        display: flex;
+        flex-direction: column;
+        p {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 14px;
+          display: flex;
+          align-items: center;
+          letter-spacing: 0.05em;
+          margin: 20px;
+          color: #ffffff;
+          position: relative;
+          left: -3px;
+        }
+        img {
+          position: absolute;
+          width: 112px;
+          height: 16px;
+          left: 118.55px;
+          top: 69px;
+        }
+        #price__piano {
           font-family: "Abril Fatface";
           font-style: normal;
           font-weight: 400;
           font-size: 24px;
           line-height: 32px;
           display: flex;
-          letter-spacing: 0.05em;
-          color: #ffffff;
-          flex-direction: column;
           align-items: center;
-          margin-top: 20px;
-        }
-        .value {
-          display: flex;
-          flex-direction: column;
-          p {
-            font-family: "Raleway";
-            font-style: normal;
-            font-weight: 700;
-            font-size: 12px;
-            line-height: 14px;
-            display: flex;
-            align-items: center;
-            letter-spacing: 0.05em;
-            margin: 20px;
-            color: #ffffff;
-            position: relative;
-            left: 31px;
-          }
-          img {
-            position: absolute;
-            width: 112px;
-            height: 16px;
-            left: 139.55px;
-            top: 69px;
-          }
-          #price__piano {
-            font-family: "Abril Fatface";
-            font-style: normal;
-            font-weight: 400;
-            font-size: 24px;
-            line-height: 32px;
-            display: flex;
-            align-items: center;
-            letter-spacing: 0.05em;
-            justify-content: center;
-            color: #ffffff;
-            position: initial;
-          }
-        }
-        #lorem {
-          color: #ffffff;
-          font-family: "Raleway";
-          font-style: normal;
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 19px;
-          text-align: center;
           letter-spacing: 0.05em;
-          width: 281px;
-          height: 131px;
-          margin-left: 14px;
-          margin-right: 18px;
-        }
-        .list {
-          flex-direction: row;
-          display: flex;
           justify-content: center;
-          align-content: center;
-          flex-wrap: wrap;
-          color: aliceblue;
-          margin-top: 58px;
-          align-items: baseline;
-          margin-bottom: 20px;
-          list-style-type: none;
+          color: #ffffff;
+          position: relative;
+          left: -20px;
         }
+      }
+      #lorem {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.05em;
+        width: 360px;
+        height: 131px;
+        margin-left: 14px;
+        margin-right: 4px;
+        position: relative;
+        left: -12px;
+        color: #ffffff;
+      }
+      .list {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        color: aliceblue;
+        margin-top: 58px;
+        align-items: baseline;
+        margin-bottom: 20px;
+        list-style-type: none;
 
-        .new__button {
-          border-radius: 8px;
-          font-family: "Raleway";
-          font-style: normal;
-          font-weight: 700;
-          font-size: 14px;
-          line-height: 16px;
-          display: flex;
-          text-align: center;
-          letter-spacing: 0.05em;
-          width: 228px;
-          height: 32px;
-          color: #ffff;
-          flex-wrap: nowrap;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          margin-bottom: 32px;
-          margin-left: 43px;
-          background-color: black;
+        li {
+          margin-right: 9px;
         }
+      }
+
+      .new__button {
+        border-radius: 8px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        text-align: center;
+        letter-spacing: 0.05em;
+        width: 228px;
+        height: 32px;
+        color: white;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
+        margin-left: 43px;
+        background-color: black;
+        left: -45px;
+        position: relative;
       }
     }
   }
