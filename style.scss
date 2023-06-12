@@ -187,7 +187,7 @@ Width: 320px
 
 @media (max-width: 960px) {
   .piano__card__container {
-    background: linear-gradient(rgba(255, 255, 255, 0), black);
+    background: linear-gradient(white, black, white);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -212,7 +212,7 @@ Width: 320px
           width: 288px;
           height: 64px;
           left: 15.55px;
-          font-family: 'Abril Fatface';
+          font-family: "Abril Fatface";
           font-style: normal;
           font-weight: 400;
           font-size: 24px;
@@ -222,6 +222,7 @@ Width: 320px
           text-align: center;
           letter-spacing: 0.05em;
           color: #000000;
+          z-index: 2;
         }
         .cuerpo__1 img{
           width: 200px;
@@ -243,14 +244,26 @@ Width: 320px
           top: 74px;
           left: 45px;
           position: absolute;
+          z-index: 3;
         }
         .cuerpo__4 img{
           width: 200px;
           position: absolute;
           top: 78px;
           left: 67px;
+          
+        }
+        
+        .fondo img{
+          background-image: url(./sources/images/image2.png);
+          width: 320px;
+          height: 283px;
+          z-index: 0;
+          position: relative;
+          opacity: 0.3;
         }
       }
+
 
     }
     .card__part__two{
