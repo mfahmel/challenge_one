@@ -1,4 +1,8 @@
 @import url(https://fonts.google.com/);
+
+@media (max-width: 960px) {
+
+
 .piano__card__container {
   background-image: url(./sources/images/font__black.png);
   width: 320px;
@@ -177,3 +181,4 @@ button {
   left: 45.55px;
   top: 592px;
 }/*# sourceMappingURL=style.css.map */
+}
