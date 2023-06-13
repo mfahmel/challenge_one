@@ -704,7 +704,7 @@
 .foter__flex__item {
   flex: 33%;
   text-align: left;
-  padding: 6px;
+  padding: 0px;
   text-align: center;
 }
 .foter__flex__item-powered {
@@ -725,6 +725,7 @@
 }
 .menuUs {
   list-style-type: none;
+  line-height: 0.5;
 }
 
 .menuContactUs > li {
@@ -740,18 +741,18 @@
   align-items: center;
 }
 .footer_title {
-  padding: 15px;
   font-weight: 400;
   font-family: $font-AbrilFF;
   font-size: 14px;
-  line-height: 18.84px;
+  margin-left: 0px;
 }
 .footer_title_content {
-  padding: 5px;
+  
   font-weight: 300;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 2;
+  margin-top: 16px;
 }
 .footer_logo {
   padding: 60px;
