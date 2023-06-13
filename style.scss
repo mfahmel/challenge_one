@@ -748,7 +748,6 @@
   margin-top: 30px;
 }
 .footer_title_content {
-  
   font-weight: 300;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
@@ -1064,6 +1063,8 @@
         background-color: black;
         left: -45px;
         position: relative;
+        border-style: none;
+
         &:hover {
           background: rgba(0, 0, 0, 0.75);
           cursor: pointer;
