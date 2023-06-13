@@ -190,7 +190,7 @@
 ///////////////////////////////////////////////
 /* NEW-MODEL-PAGES */
 
-@import url(https://fonts.google.com/);
+/* @import url(https://fonts.google.com/); */
 
 @media (max-width: 959px) {
   .piano__card__container {
@@ -372,6 +372,12 @@
         margin-bottom: 32px;
         margin-left: 43px;
         background-color: black;
+        border-style: none;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.75);
+          cursor: pointer;
+        }
       }
     }
   }
@@ -707,6 +713,7 @@
   padding: 6px;
   @include Raleway700();
   font-size: 14px;
+  letter-spacing: 0;
 }
 .footer__flex__item__pazioli {
   flex: 66;
@@ -775,6 +782,14 @@
 .footer_heart {
   color: brown;
   font-size: 20px;
+}
+
+.margin-socialmedia {
+  margin: 0 10px;
+}
+
+.derechos--desktop {
+  display: none;
 }
 /* END */
 
@@ -1310,6 +1325,14 @@
   }
   .footer__flex__item__pazioli {
     text-align: left;
+  }
+
+  .derechos--mobile {
+    display: none;
+  }
+
+  .derechos--desktop {
+    display: block;
   }
   /* END */
 }
