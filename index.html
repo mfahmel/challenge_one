@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChallengeOne</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FUENTE EXTRA PARA HEADER__INTRO -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Sección de Moi -->
+
+    <!-- 
+    Texto:
+        Home
+        Pianos
+        Soy estudiante
+        Contáctanos
+        El arte de tocar piano
+        Instituto Pazioli
+        Ver cursos
+        Adquirir piano 
+    -->
+    <a name="Home"></a>
+    <header class="header__container">
+      <nav class="navigation__container">
+        <div class="logo__container">
+          <img
+            src="sources/images/logo.svg"
+            alt="Logo de Pazioli"
+            class="logo__image"
+          />
+        </div>
+        <div class="list__container">
+          <ul class="menu__container">
+            <a href="#Home">
+              <li class="onlydesktop option__home">Home</li>
+            </a>
+            <a href="#Pianos">
+              <li class="onlydesktop option__pianos">Pianos</li>
+            </a>
+            <a
+              href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3RPPo-uMDXXcIbF_1YtHCxaaPDr4ArkU9SuzIuRxqBw&s"
+            >
+              <li class="onlydesktop option__soy-estudiante">Soy estudiante</li>
+            </a>
+            <li class="onlydesktop option__contactanos">
+              <a href="#Contacto">
+                <button class="option__button__contactanos">Contáctanos</button>
+              </a>
+            </li>
+            <a href="#">
+              <li class="option__shopping-cart">
+                <div class="image__cart">
+                  <img
+                    src="sources/images/shopping-cart.svg"
+                    alt="Carrito de compras."
+                    class="menu__option__image--cart image--absolute"
+                  />
+                  <img
+                    src="sources/images/shopping-cart-rectangle.svg"
+                    alt="Notificación de producto añadido de carrito de compras."
+                    class="menu__option__image--rectangle image--absolute"
+                  />
+                </div>
+              </li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main__container">
+      <section class="intro__container">
+        <p class="intro__p text--letter-spacing">El arte de tocar piano</p>
+        <h1 class="intro__h1 text--letter-spacing">Instituto Pazioli</h1>
+        <div class="intro__buttons__container">
+          <button
+            class="buttons__intro__action buttons__ver-cursos text--letter-spacing text--Poppins"
+          >
+            Ver cursos
+          </button>
+          <a href="#Pianos">
+            <button
+              class="buttons__intro__action buttons__adquirir-piano text--letter-spacing text--Poppins"
+              type="button"
+            >
+              Adquirir piano
+            </button>
+          </a>
+        </div>
+        <img
+          src="sources/images/piano-mobile.png"
+          alt="Imagen de un majestuoso piano negro de cola, destacando su elegante y pulida superficie. Las teclas brillantes y uniformes se extienden a lo largo del teclado, mientras que las patas robustas y ornamentadas agregan un toque de sofisticación. Este imponente instrumento musical se encuentra en un espacio bien iluminado, evocando un ambiente sereno y lleno de posibilidades musicales."
+          class="intro__piano__image--mobile"
+        />
+        <img
+          src="sources/images/piano-desktop.png"
+          alt="Imagen de un majestuoso piano negro de cola, destacando su elegante y pulida superficie. Las teclas brillantes y uniformes se extienden a lo largo del teclado, mientras que las patas robustas y ornamentadas agregan un toque de sofisticación. Este imponente instrumento musical se encuentra en un espacio bien iluminado, evocando un ambiente sereno y lleno de posibilidades musicales."
+          class="onlydesktop-section intro__piano__image--desktop"
+        />
+
+        <div class="socialmedia__logo">
+          <a href="#">
+            <img
+              src="sources/images/logo-facebook.svg"
+              alt="Ir a Facebook"
+              class="onlydesktop-section intro__socialmedia__image--facebook"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="sources/images/logo-instagram.svg"
+              alt="Ir a Instagram"
+              class="onlydesktop-section intro__socialmedia__image--instagram logo__image--margin"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="sources/images/logo-twitter.svg"
+              alt="Ir a Twitter"
+              class="onlydesktop-section intro__socialmedia__image--twitter logo__image--margin"
+            />
+          </a>
+        </div>
+      </section>
+
+      <!-- Sección de Max -->
+
+      <!-- 
+        Texto:
+            Conoce nuestro nuevo modelo en clase
+            Nuevo Ebony F228
+            Valoración:
+            Desde: $110,00.00
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet donec purus egestas mattis non orci. Tellus id viverra id egestas. Quis enim, mauris velit feugiat vestibulum adipiscing elementum gravida. Egestas felis pellentesque vitae sed.
+            Nuevo
+            2021
+            Acús...
+            M. Cedro
+            Agregar al carrito 
+        -->
+      <a name="Nuevo"></a>
+      <section class="piano__card__container">
+        <div class="card__container">
+          <div class="tarjeta">
+            <div class="image__container">
+              <div class="title">
+                <span class="titulo">Conoce nuestro nuevo modelo en clase</span>
+              </div>
+
+              <div class="cuerpo__1">
+                <img src="./sources/images/Vector(2).png" alt="muestra" />
+              </div>
+
+              <div class="cuerpo__2">
+                <img src="./sources/images/Vector(3).png" alt="muestra" />
+              </div>
+
+              <div class="cuerpo__3">
+                <img src="./sources/images/spiano.png" alt="muestra" />
+              </div>
+
+              <div class="cuerpo__4">
+                <img src="./sources/images/Group 2239.png" alt="muestra" />
+              </div>
+
+              <!-- <div class="cuerpo__5"><img src="/sources/images/image2.png" alt="">
+                        </div> -->
+              <div class="fondo">
+                <img src="./sources/images/image2.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card__part__two">
+          <h3 id="titulo__part__two">Nuevo Eboy F228</h3>
+          <div class="value">
+            <p id="value__star">Valoración:</p>
+            <img src="./sources/images/gruopstar.svg" alt="" />
+            <p id="price__piano">Desde: $110,000.00</p>
+          </div>
+          <p id="lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet
+            donec purus egestas mattis non orci. Tellus id viverra id egestas.
+            Quis enim, mauris velit feugiat vestibulum adipiscing elementum
+            gravida. Egestas felis pellentesque vitae sed.
+          </p>
+          <div class="new__list">
+            <ul class="list">
+              <li>Nuevo</li>
+              <li>&#x2022; 2021</li>
+              <li>&#x2022; Acús...</li>
+              <li>&#x2022; M.cedro</li>
+            </ul>
+          </div>
+          <div class="button__car">
+            <button class="new__button">Agregar al carrito</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de Oliver -->
+
+      <!-- 
+        Texto:
+            ¿Qué tipo de piano estás buscando?
+            
+            The Butterfly            
+            Nuevo
+            2021
+            Acús...
+            M. Cedro
+            Desde: $ 195k mn
+
+            Golden Leaf
+            Nuevo
+            2021
+            Acús...
+            M. Cedro
+            Desde: $ 305k mn
+
+            Walnut Strauss
+            Nuevo
+            2021
+            Acús...
+            M. Cedro
+            Desde: $ 125k mn 
+        -->
+      <a name="Pianos"></a>
+      <section class="piano__types">
+        <h1 class="piano__type__title">¿Qué tipo de piano estás buscando?</h1>
+        <div class="piano__type__background">
+          <div class="piano__type__card piano__type__card-one">
+            <img
+              src="./sources/images/piano_white.png"
+              alt=""
+              class="piano__type__image"
+            />
+            <hr class="piano__type__divisor" />
+            <h2 class="piano__type__semititle">The Butterfly</h2>
+            <span class="piano__type__specs">
+              Nuevo &nbsp &#x2022; 2021 &#x2022; Acús... &#x2022; M. Cedro
+            </span>
+            <div class="piano__type__bottom">
+              <span class="piano__type__price">
+                Desde:
+                <span class="piano__type__price-black">&nbsp195k mn</span>
+              </span>
+              <div class="2">
+                <img
+                  class="piano__type__cart"
+                  src="./sources/images/icon_cart.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="piano__type__card">
+            <img
+              src="./sources/images/piano_dorado.png"
+              alt=""
+              class="piano__type__image"
+            />
+            <hr class="piano__type__divisor" />
+            <h2 class="piano__type__semititle">Golden Leaf</h2>
+            <span class="piano__type__specs">
+              Nuevo &nbsp &#x2022; 2021 &#x2022; Acús... &#x2022; M. Cedro
+            </span>
+            <div class="piano__type__bottom">
+              <span class="piano__type__price">
+                Desde: <span class="piano__type__price-black">&nbsp305kmn</span>
+              </span>
+              <div class="2">
+                <img
+                  class="piano__type__cart"
+                  src="./sources/images/icon_cart.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="piano__type__card piano__type__card-brown">
+            <img
+              src="./sources/images/piano_brown.png"
+              alt=""
+              class="piano__type__image piano__type__image-brown"
+            />
+            <hr class="piano__type__divisor" />
+            <h2 class="piano__type__semititle piano__type__semititle-brown">
+              Walnut Strauss
+            </h2>
+            <span class="piano__type__specs">
+              Nuevo &nbsp &#x2022; 2021 &#x2022; Acús... &#x2022; M. Cedro
+            </span>
+            <div class="piano__type__bottom">
+              <span class="piano__type__price piano__type__price">
+                Desde:
+                <span class="piano__type__price-black">&nbsp125k mn</span>
+              </span>
+              <div class="2">
+                <img
+                  class="piano__type__cart"
+                  src="./sources/images/icon_cart.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="piano__type__more">Ver más</button>
+      </section>
+
+      <!-- Sección de Luis -->
+
+      <!-- 
+        Texto:
+            Contáctanos
+            ¿Quieres educarte formalmente en este instrumento? Toca más rápido, logra mayor fluidez en las composiciones complejas. Contactános para conocer tus objetivos.
+            Nombre
+            Teléfono
+            Email
+            Cuéntanos más
+            Enviar 
+        -->
+      <a name="Contacto"></a>
+      <section class="contact__container">
+        <span class="contact__span"> Contactános </span>
+        <p class="contact__p">
+          ¿Quieres educarte formalmente en este instrumento? Toca más rápido,
+          logra mayor fluidez en las composiciones complejas. Contactános para
+          conocer tus objetivos.
+        </p>
+        <form action="#" class="contact__form">
+          <label for="nombre" class="form__label form__nombre"> Nombre </label>
+          <input class="form__input" type="text" name="nombre" id="nombre" />
+
+          <div class="form__container__input--flex form__margin-top">
+            <div
+              class="form__container__input--flex__telefono input__flex_width"
+            >
+              <label class="form__label form__telefono">
+                <span class="form__container__span">Teléfono</span>
+                <input
+                  class="form__input"
+                  type="tel"
+                  name="telefono"
+                  id="telefono"
+                />
+              </label>
+            </div>
+
+            <div
+              class="form__container__input--flex__email form__margin-top input__flex_width"
+            >
+              <label class="form__label form__email">
+                Email
+                <input
+                  class="form__input"
+                  type="email"
+                  name="email"
+                  id="email"
+                />
+              </label>
+            </div>
+          </div>
+
+          <label for="cuentanos-mas" class="form__label form__margin-top">
+            Cuéntanos más
+          </label>
+          <textarea
+            class="form__input form__cuentanos-mas"
+            name="cuentanos-mas"
+            id="cuentanos-mas"
+          ></textarea>
+
+          <input
+            class="form__input__button form__margin-top"
+            type="button"
+            value="Enviar"
+          />
+        </form>
+      </section>
+
+      <!-- Sección de Leo -->
+
+      <!-- 
+        Texto:
+            Conoce a nuestros partners
+            Petrof
+            ParísPian
+            Hefilti
+            BookPa
+            Yamaha
+            Pianotwo
+            PiafMar 
+        -->
+
+      <section class="partners__container">
+        <div class="header-partners">
+          <h2 class="title-partners">Conoce a nuestros partners</h2>
+        </div>
+
+        <div class="body-partners">
+          <div class="ctn-img-mobile">
+            <img src="./sources/images/Group 2276A.svg" alt="" />
+            <img src="./sources/images/Group 2267A.svg" alt="" />
+            <img src="./sources/images/Group 2273A.svg" alt="" />
+          </div>
+          <div class="ctn-img-desktop">
+            <img src="./sources/images/Group 2278.png" alt="" />
+            <img src="./sources/images/Group 2275.png" alt="" />
+            <img src="./sources/images/Group 2277.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Sección de Silvia -->
+
+    <!-- 
+    Texto:
+        Nosotros
+        Home
+        Nuevo
+        Pianos
+        Conoce nuestros cursos
+        Contáctanos
+        México
+        Tonalá 10, Roma Nte., Cuauhtémoc, 03800 Ciudad de México, CDMX.
+        © Pazioli 2021, todos los derechos reservados.
+        Powered with ♥ by 
+        DevKoore 
+    -->
+
+    <footer class="footer__container footer__background">
+      <div class="footer__container">
+        <div class="foter__flex__item-socialnetworks">
+          <p class="footer_logo footer__logo__background">
+            <img
+              src="sources/images/logo.svg"
+              alt="Logo Pazioli"
+              class="logo__image"
+            />
+          </p>
+          <div class="footer_social_networks">
+            <p>
+              <a href="#">
+                <img
+                  src="sources/images/logo-facebook.svg"
+                  alt="Ir a Facebook"
+                  class="onlydesktop-section intro__socialmedia__image--facebook"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="sources/images/logo-twitter.svg"
+                  alt="Ir a Twitter"
+                  class="onlydesktop-section intro__socialmedia__image--twitter logo__image--margin margin-socialmedia"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="sources/images/logo-instagram.svg"
+                  alt="Ir a Instagram"
+                  class="onlydesktop-section intro__socialmedia__image--instagram logo__image--margin"
+                />
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="foter__flex__item">
+          <p class="footer_title">Nosotros</p>
+          <ul class="menuUs footer_title_content">
+            <a href="#Home">
+              <li class="foter__flex__item">Home</li>
+            </a>
+            <a href="#Nuevo">
+              <li class="foter__flex__item">Nuevo</li>
+            </a>
+            <a href="#Pianos">
+              <li class="foter__flex__item">Pianos</li>
+            </a>
+            <a href="#">
+              <li class="foter__flex__item">Conoce nuestros cursos</li>
+            </a>
+          </ul>
+          <div class="derechos--desktop footer__flex__item__pazioli">
+            <p>© Pazioli 2021, todos los derechos reservados.</p>
+          </div>
+        </div>
+        <div class="foter__flex__item">
+          <p class="footer_title">Contáctanos</p>
+          <ul class="menuUs footer_title_content">
+            <li class="footer_flex__item1">México</li>
+            <li class="footer_flex__item1">Tonalá 10, Roma Nte, Cuauhtémoc,</li>
+            <li class="footer_flex__item1">03800 Ciudad de México, CDMX.</li>
+          </ul>
+          <div class="derechos--mobile footer__flex__item__pazioli">
+            <p>© Pazioli 2021, todos los derechos reservados.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__container">
+        <!-- <div class="footer_social_networks">
+          <p>
+            <a href="#">
+              <img
+                src="sources/images/logo-facebook.svg"
+                alt="Ir a Facebook"
+                class="onlydesktop-section intro__socialmedia__image--facebook"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="sources/images/logo-twitter.svg"
+                alt="Ir a Twitter"
+                class="onlydesktop-section intro__socialmedia__image--twitter logo__image--margin"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="sources/images/logo-instagram.svg"
+                alt="Ir a Instagram"
+                class="onlydesktop-section intro__socialmedia__image--instagram logo__image--margin"
+              />
+            </a>
+          </p>
+        </div> -->
+        <!-- <div class="footer__flex__item__pazioli">
+          <p>© Pazioli 2021, todos los derechos reservados.</p>
+        </div> -->
+      </div>
+      <div class="footer__container2">
+        <div class="foter__flex__item-powered">
+          <p>Powered with <span class="footer_heart">♥</span> by</p>
+          <p class="footer_title">DevKoore</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
