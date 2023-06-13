@@ -315,7 +315,7 @@
     border-style: none;
   }
   .piano__card__container .card__part__two .new__button:hover {
-    background-color: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.75);
     cursor: pointer;
   }
 }
@@ -974,6 +974,10 @@
     background-color: black;
     left: -45px;
     position: relative;
+  }
+  .piano__card__container .card__part__two .new__button:hover {
+    background: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
   }
   /* END */
   /* PIANO-TYPES */

@@ -375,7 +375,7 @@
         border-style: none;
 
         &:hover {
-          background-color: rgba(0, 0, 0, 0.75);
+          background: rgba(0, 0, 0, 0.75);
           cursor: pointer;
         }
       }
@@ -1062,6 +1062,10 @@
         background-color: black;
         left: -45px;
         position: relative;
+        &:hover {
+          background: rgba(0, 0, 0, 0.75);
+          cursor: pointer;
+        }
       }
     }
   }
